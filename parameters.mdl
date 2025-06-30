@@ -1,0 +1,44 @@
+/* parameters for the simulation */
+
+INTERACTION_RADIUS = 0.003 /* was 0.3 */
+
+iterations = 10000000      /*number of iterations */
+                                                                                            
+Glu_diff_const=3.0E-6      /* 3E-6  cm2/s or 0.3 micron square per millisecond */
+
+time_step = 1e-7                               /* simulation time step */
+reaction_output_time_step = 1e-4                /*5e-7 interval between reaction data output data points */
+effector_grid_density = 10000                  /* density of the effector site grid */
+maximum_time_step = time_step*1                /* maximum simulation time step - set equal to time step for max accuracy*/
+
+/* Glu2NA rates */
+
+A_kon_2 = 2.0*50.6E6
+A_koff = 3046.0
+A_kon = 50.6E6
+A_koff_2 = 2.0*3046
+A_kd1p = 257.0
+A_kd1n = 89.6
+A_kd2p = 694.0
+A_kd2n = 3.05
+A_kfp = 9469.0
+A_kfn = 525.0
+A_ksp = 694.0
+A_ksn = 537.0
+
+/* Glu2NB rates */
+
+B_kon_2 = 2.0*4.53E6
+B_koff = 115.0
+B_kon = 4.53E6
+B_koff_2 = 2.0*115.0
+B_kd1p = 1659.0
+B_kd1n = 245.0
+B_kd2p = 338.0
+B_kd2n = 2.74
+B_kfp = 8553.0
+B_kfn = 528.0
+B_ksp = 145.0
+B_ksn = 694.0
+
+

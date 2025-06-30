@@ -1,0 +1,1582 @@
+REACTION_DATA_OUTPUT {
+
+STEP = reaction_output_time_step
+/*
+BINARY_OUTPUT = TRUE
+BINARY_OUTPUT_COMPRESSION_LEVEL = 9
+BINARY_OUTPUT_COMPRESSION_TYPE = BZIP2
+BINARY_OUTPUT_DIRECTORY = binary_out
+BINARY_OUTPUT_FILENAME = "seed_count.00" & seed & ".bin.bz2"
+*/
+
+{COUNT[A_RO_n1,WORLD]}=> reactdir & "open_GluN2A_n1" & "." & seed & ".dat" 
+{COUNT[A_RO_n2,WORLD]}=> reactdir & "open_GluN2A_n2" & "." & seed & ".dat" 
+{COUNT[A_RO_n3,WORLD]}=> reactdir & "open_GluN2A_n3" & "." & seed & ".dat" 
+{COUNT[A_RO_n4,WORLD]}=> reactdir & "open_GluN2A_n4" & "." & seed & ".dat" 
+{COUNT[A_RO_n5,WORLD]}=> reactdir & "open_GluN2A_n5" & "." & seed & ".dat" 
+{COUNT[A_RO_n6,WORLD]}=> reactdir & "open_GluN2A_n6" & "." & seed & ".dat" 
+{COUNT[A_RO_n7,WORLD]}=> reactdir & "open_GluN2A_n7" & "." & seed & ".dat" 
+{COUNT[A_RO_n8,WORLD]}=> reactdir & "open_GluN2A_n8" & "." & seed & ".dat" 
+{COUNT[A_RO_n9,WORLD]}=> reactdir & "open_GluN2A_n9" & "." & seed & ".dat" 
+{COUNT[A_RO_n10,WORLD]}=> reactdir & "open_GluN2A_n10" & "." & seed & ".dat" 
+{COUNT[A_RO_n11,WORLD]}=> reactdir & "open_GluN2A_n11" & "." & seed & ".dat" 
+{COUNT[A_RO_n12,WORLD]}=> reactdir & "open_GluN2A_n12" & "." & seed & ".dat" 
+{COUNT[A_RO_n13,WORLD]}=> reactdir & "open_GluN2A_n13" & "." & seed & ".dat" 
+{COUNT[A_RO_n14,WORLD]}=> reactdir & "open_GluN2A_n14" & "." & seed & ".dat" 
+{COUNT[A_RO_n15,WORLD]}=> reactdir & "open_GluN2A_n15" & "." & seed & ".dat" 
+{COUNT[A_RO_n16,WORLD]}=> reactdir & "open_GluN2A_n16" & "." & seed & ".dat" 
+{COUNT[A_RO_n17,WORLD]}=> reactdir & "open_GluN2A_n17" & "." & seed & ".dat" 
+{COUNT[A_RO_n18,WORLD]}=> reactdir & "open_GluN2A_n18" & "." & seed & ".dat" 
+{COUNT[A_RO_n19,WORLD]}=> reactdir & "open_GluN2A_n19" & "." & seed & ".dat" 
+{COUNT[A_RO_n20,WORLD]}=> reactdir & "open_GluN2A_n20" & "." & seed & ".dat" 
+{COUNT[A_RO_n21,WORLD]}=> reactdir & "open_GluN2A_n21" & "." & seed & ".dat" 
+{COUNT[A_RO_n22,WORLD]}=> reactdir & "open_GluN2A_n22" & "." & seed & ".dat" 
+{COUNT[A_RO_n23,WORLD]}=> reactdir & "open_GluN2A_n23" & "." & seed & ".dat" 
+{COUNT[A_RO_n24,WORLD]}=> reactdir & "open_GluN2A_n24" & "." & seed & ".dat" 
+{COUNT[A_RO_n25,WORLD]}=> reactdir & "open_GluN2A_n25" & "." & seed & ".dat" 
+{COUNT[A_RO_n26,WORLD]}=> reactdir & "open_GluN2A_n26" & "." & seed & ".dat" 
+{COUNT[A_RO_n27,WORLD]}=> reactdir & "open_GluN2A_n27" & "." & seed & ".dat" 
+{COUNT[A_RO_n28,WORLD]}=> reactdir & "open_GluN2A_n28" & "." & seed & ".dat" 
+{COUNT[A_RO_n29,WORLD]}=> reactdir & "open_GluN2A_n29" & "." & seed & ".dat" 
+{COUNT[A_RO_n30,WORLD]}=> reactdir & "open_GluN2A_n30" & "." & seed & ".dat" 
+{COUNT[A_RO_n31,WORLD]}=> reactdir & "open_GluN2A_n31" & "." & seed & ".dat" 
+{COUNT[A_RO_n32,WORLD]}=> reactdir & "open_GluN2A_n32" & "." & seed & ".dat" 
+{COUNT[A_RO_n33,WORLD]}=> reactdir & "open_GluN2A_n33" & "." & seed & ".dat" 
+{COUNT[A_RO_n34,WORLD]}=> reactdir & "open_GluN2A_n34" & "." & seed & ".dat" 
+{COUNT[A_RO_n35,WORLD]}=> reactdir & "open_GluN2A_n35" & "." & seed & ".dat" 
+{COUNT[A_RO_n36,WORLD]}=> reactdir & "open_GluN2A_n36" & "." & seed & ".dat" 
+{COUNT[A_RO_n37,WORLD]}=> reactdir & "open_GluN2A_n37" & "." & seed & ".dat" 
+{COUNT[A_RO_n38,WORLD]}=> reactdir & "open_GluN2A_n38" & "." & seed & ".dat" 
+{COUNT[A_RO_n39,WORLD]}=> reactdir & "open_GluN2A_n39" & "." & seed & ".dat" 
+{COUNT[A_RO_n40,WORLD]}=> reactdir & "open_GluN2A_n40" & "." & seed & ".dat" 
+{COUNT[A_RO_n41,WORLD]}=> reactdir & "open_GluN2A_n41" & "." & seed & ".dat" 
+{COUNT[A_RO_n42,WORLD]}=> reactdir & "open_GluN2A_n42" & "." & seed & ".dat" 
+{COUNT[A_RO_n43,WORLD]}=> reactdir & "open_GluN2A_n43" & "." & seed & ".dat" 
+{COUNT[A_RO_n44,WORLD]}=> reactdir & "open_GluN2A_n44" & "." & seed & ".dat" 
+{COUNT[A_RO_n45,WORLD]}=> reactdir & "open_GluN2A_n45" & "." & seed & ".dat" 
+{COUNT[A_RO_n46,WORLD]}=> reactdir & "open_GluN2A_n46" & "." & seed & ".dat" 
+{COUNT[A_RO_n47,WORLD]}=> reactdir & "open_GluN2A_n47" & "." & seed & ".dat" 
+{COUNT[A_RO_n48,WORLD]}=> reactdir & "open_GluN2A_n48" & "." & seed & ".dat" 
+{COUNT[A_RO_n49,WORLD]}=> reactdir & "open_GluN2A_n49" & "." & seed & ".dat" 
+{COUNT[A_RO_n50,WORLD]}=> reactdir & "open_GluN2A_n50" & "." & seed & ".dat" 
+{COUNT[A_RO_n51,WORLD]}=> reactdir & "open_GluN2A_n51" & "." & seed & ".dat" 
+{COUNT[A_RO_n52,WORLD]}=> reactdir & "open_GluN2A_n52" & "." & seed & ".dat" 
+{COUNT[A_RO_n53,WORLD]}=> reactdir & "open_GluN2A_n53" & "." & seed & ".dat" 
+{COUNT[A_RO_n54,WORLD]}=> reactdir & "open_GluN2A_n54" & "." & seed & ".dat" 
+{COUNT[A_RO_n55,WORLD]}=> reactdir & "open_GluN2A_n55" & "." & seed & ".dat" 
+{COUNT[A_RO_n56,WORLD]}=> reactdir & "open_GluN2A_n56" & "." & seed & ".dat" 
+{COUNT[A_RO_n57,WORLD]}=> reactdir & "open_GluN2A_n57" & "." & seed & ".dat" 
+{COUNT[A_RO_n58,WORLD]}=> reactdir & "open_GluN2A_n58" & "." & seed & ".dat" 
+{COUNT[A_RO_n59,WORLD]}=> reactdir & "open_GluN2A_n59" & "." & seed & ".dat" 
+{COUNT[A_RO_n60,WORLD]}=> reactdir & "open_GluN2A_n60" & "." & seed & ".dat" 
+{COUNT[A_RO_n61,WORLD]}=> reactdir & "open_GluN2A_n61" & "." & seed & ".dat" 
+{COUNT[A_RO_n62,WORLD]}=> reactdir & "open_GluN2A_n62" & "." & seed & ".dat" 
+{COUNT[A_RO_n63,WORLD]}=> reactdir & "open_GluN2A_n63" & "." & seed & ".dat" 
+{COUNT[A_RO_n64,WORLD]}=> reactdir & "open_GluN2A_n64" & "." & seed & ".dat" 
+{COUNT[A_RO_n65,WORLD]}=> reactdir & "open_GluN2A_n65" & "." & seed & ".dat" 
+{COUNT[A_RO_n66,WORLD]}=> reactdir & "open_GluN2A_n66" & "." & seed & ".dat" 
+{COUNT[A_RO_n67,WORLD]}=> reactdir & "open_GluN2A_n67" & "." & seed & ".dat" 
+{COUNT[A_RO_n68,WORLD]}=> reactdir & "open_GluN2A_n68" & "." & seed & ".dat" 
+{COUNT[A_RO_n69,WORLD]}=> reactdir & "open_GluN2A_n69" & "." & seed & ".dat" 
+{COUNT[A_RO_n70,WORLD]}=> reactdir & "open_GluN2A_n70" & "." & seed & ".dat" 
+{COUNT[A_RO_n71,WORLD]}=> reactdir & "open_GluN2A_n71" & "." & seed & ".dat" 
+{COUNT[A_RO_n72,WORLD]}=> reactdir & "open_GluN2A_n72" & "." & seed & ".dat" 
+{COUNT[A_RO_n73,WORLD]}=> reactdir & "open_GluN2A_n73" & "." & seed & ".dat" 
+{COUNT[A_RO_n74,WORLD]}=> reactdir & "open_GluN2A_n74" & "." & seed & ".dat" 
+{COUNT[A_RO_n75,WORLD]}=> reactdir & "open_GluN2A_n75" & "." & seed & ".dat" 
+{COUNT[A_RO_n76,WORLD]}=> reactdir & "open_GluN2A_n76" & "." & seed & ".dat" 
+{COUNT[A_RO_n77,WORLD]}=> reactdir & "open_GluN2A_n77" & "." & seed & ".dat" 
+{COUNT[A_RO_n78,WORLD]}=> reactdir & "open_GluN2A_n78" & "." & seed & ".dat" 
+{COUNT[A_RO_n79,WORLD]}=> reactdir & "open_GluN2A_n79" & "." & seed & ".dat" 
+{COUNT[A_RO_n80,WORLD]}=> reactdir & "open_GluN2A_n80" & "." & seed & ".dat" 
+{COUNT[A_RO_n81,WORLD]}=> reactdir & "open_GluN2A_n81" & "." & seed & ".dat" 
+{COUNT[A_RO_n82,WORLD]}=> reactdir & "open_GluN2A_n82" & "." & seed & ".dat" 
+{COUNT[A_RO_n83,WORLD]}=> reactdir & "open_GluN2A_n83" & "." & seed & ".dat" 
+{COUNT[A_RO_n84,WORLD]}=> reactdir & "open_GluN2A_n84" & "." & seed & ".dat" 
+{COUNT[A_RO_n85,WORLD]}=> reactdir & "open_GluN2A_n85" & "." & seed & ".dat" 
+{COUNT[A_RO_n86,WORLD]}=> reactdir & "open_GluN2A_n86" & "." & seed & ".dat" 
+{COUNT[A_RO_n87,WORLD]}=> reactdir & "open_GluN2A_n87" & "." & seed & ".dat" 
+{COUNT[A_RO_n88,WORLD]}=> reactdir & "open_GluN2A_n88" & "." & seed & ".dat" 
+{COUNT[A_RO_n89,WORLD]}=> reactdir & "open_GluN2A_n89" & "." & seed & ".dat" 
+{COUNT[A_RO_n90,WORLD]}=> reactdir & "open_GluN2A_n90" & "." & seed & ".dat" 
+{COUNT[A_RO_n91,WORLD]}=> reactdir & "open_GluN2A_n91" & "." & seed & ".dat" 
+{COUNT[A_RO_n92,WORLD]}=> reactdir & "open_GluN2A_n92" & "." & seed & ".dat" 
+{COUNT[A_RO_n93,WORLD]}=> reactdir & "open_GluN2A_n93" & "." & seed & ".dat" 
+{COUNT[A_RO_n94,WORLD]}=> reactdir & "open_GluN2A_n94" & "." & seed & ".dat" 
+{COUNT[A_RO_n95,WORLD]}=> reactdir & "open_GluN2A_n95" & "." & seed & ".dat" 
+{COUNT[A_RO_n96,WORLD]}=> reactdir & "open_GluN2A_n96" & "." & seed & ".dat" 
+{COUNT[A_RO_n97,WORLD]}=> reactdir & "open_GluN2A_n97" & "." & seed & ".dat" 
+{COUNT[A_RO_n98,WORLD]}=> reactdir & "open_GluN2A_n98" & "." & seed & ".dat" 
+{COUNT[A_RO_n99,WORLD]}=> reactdir & "open_GluN2A_n99" & "." & seed & ".dat" 
+{COUNT[A_RO_n100,WORLD]}=> reactdir & "open_GluN2A_n100" & "." & seed & ".dat" 
+{COUNT[A_RO_n101,WORLD]}=> reactdir & "open_GluN2A_n101" & "." & seed & ".dat" 
+{COUNT[A_RO_n102,WORLD]}=> reactdir & "open_GluN2A_n102" & "." & seed & ".dat" 
+{COUNT[A_RO_n103,WORLD]}=> reactdir & "open_GluN2A_n103" & "." & seed & ".dat" 
+{COUNT[A_RO_n104,WORLD]}=> reactdir & "open_GluN2A_n104" & "." & seed & ".dat" 
+{COUNT[A_RO_n105,WORLD]}=> reactdir & "open_GluN2A_n105" & "." & seed & ".dat" 
+{COUNT[A_RO_n106,WORLD]}=> reactdir & "open_GluN2A_n106" & "." & seed & ".dat" 
+{COUNT[A_RO_n107,WORLD]}=> reactdir & "open_GluN2A_n107" & "." & seed & ".dat" 
+{COUNT[A_RO_n108,WORLD]}=> reactdir & "open_GluN2A_n108" & "." & seed & ".dat" 
+{COUNT[A_RO_n109,WORLD]}=> reactdir & "open_GluN2A_n109" & "." & seed & ".dat" 
+{COUNT[A_RO_n110,WORLD]}=> reactdir & "open_GluN2A_n110" & "." & seed & ".dat" 
+{COUNT[A_RO_n111,WORLD]}=> reactdir & "open_GluN2A_n111" & "." & seed & ".dat" 
+{COUNT[A_RO_n112,WORLD]}=> reactdir & "open_GluN2A_n112" & "." & seed & ".dat" 
+{COUNT[A_RO_n113,WORLD]}=> reactdir & "open_GluN2A_n113" & "." & seed & ".dat" 
+{COUNT[A_RO_n114,WORLD]}=> reactdir & "open_GluN2A_n114" & "." & seed & ".dat" 
+{COUNT[A_RO_n115,WORLD]}=> reactdir & "open_GluN2A_n115" & "." & seed & ".dat" 
+{COUNT[A_RO_n116,WORLD]}=> reactdir & "open_GluN2A_n116" & "." & seed & ".dat" 
+{COUNT[A_RO_n117,WORLD]}=> reactdir & "open_GluN2A_n117" & "." & seed & ".dat" 
+{COUNT[A_RO_n118,WORLD]}=> reactdir & "open_GluN2A_n118" & "." & seed & ".dat" 
+{COUNT[A_RO_n119,WORLD]}=> reactdir & "open_GluN2A_n119" & "." & seed & ".dat" 
+{COUNT[A_RO_n120,WORLD]}=> reactdir & "open_GluN2A_n120" & "." & seed & ".dat" 
+{COUNT[A_RO_n121,WORLD]}=> reactdir & "open_GluN2A_n121" & "." & seed & ".dat" 
+{COUNT[A_RO_n122,WORLD]}=> reactdir & "open_GluN2A_n122" & "." & seed & ".dat" 
+{COUNT[A_RO_n123,WORLD]}=> reactdir & "open_GluN2A_n123" & "." & seed & ".dat" 
+{COUNT[A_RO_n124,WORLD]}=> reactdir & "open_GluN2A_n124" & "." & seed & ".dat" 
+{COUNT[A_RO_n125,WORLD]}=> reactdir & "open_GluN2A_n125" & "." & seed & ".dat" 
+{COUNT[A_RO_n126,WORLD]}=> reactdir & "open_GluN2A_n126" & "." & seed & ".dat" 
+{COUNT[A_RO_n127,WORLD]}=> reactdir & "open_GluN2A_n127" & "." & seed & ".dat" 
+{COUNT[A_RO_n128,WORLD]}=> reactdir & "open_GluN2A_n128" & "." & seed & ".dat" 
+{COUNT[A_RO_n129,WORLD]}=> reactdir & "open_GluN2A_n129" & "." & seed & ".dat" 
+{COUNT[A_RO_n130,WORLD]}=> reactdir & "open_GluN2A_n130" & "." & seed & ".dat" 
+{COUNT[A_RO_n131,WORLD]}=> reactdir & "open_GluN2A_n131" & "." & seed & ".dat" 
+{COUNT[A_RO_n132,WORLD]}=> reactdir & "open_GluN2A_n132" & "." & seed & ".dat" 
+{COUNT[A_RO_n133,WORLD]}=> reactdir & "open_GluN2A_n133" & "." & seed & ".dat" 
+{COUNT[A_RO_n134,WORLD]}=> reactdir & "open_GluN2A_n134" & "." & seed & ".dat" 
+{COUNT[A_RO_n135,WORLD]}=> reactdir & "open_GluN2A_n135" & "." & seed & ".dat" 
+{COUNT[A_RO_n136,WORLD]}=> reactdir & "open_GluN2A_n136" & "." & seed & ".dat" 
+{COUNT[A_RO_n137,WORLD]}=> reactdir & "open_GluN2A_n137" & "." & seed & ".dat" 
+{COUNT[A_RO_n138,WORLD]}=> reactdir & "open_GluN2A_n138" & "." & seed & ".dat" 
+{COUNT[A_RO_n139,WORLD]}=> reactdir & "open_GluN2A_n139" & "." & seed & ".dat" 
+{COUNT[A_RO_n140,WORLD]}=> reactdir & "open_GluN2A_n140" & "." & seed & ".dat" 
+{COUNT[A_RO_n141,WORLD]}=> reactdir & "open_GluN2A_n141" & "." & seed & ".dat" 
+{COUNT[A_RO_n142,WORLD]}=> reactdir & "open_GluN2A_n142" & "." & seed & ".dat" 
+{COUNT[A_RO_n143,WORLD]}=> reactdir & "open_GluN2A_n143" & "." & seed & ".dat" 
+{COUNT[A_RO_n144,WORLD]}=> reactdir & "open_GluN2A_n144" & "." & seed & ".dat" 
+{COUNT[A_RO_n145,WORLD]}=> reactdir & "open_GluN2A_n145" & "." & seed & ".dat" 
+{COUNT[A_RO_n146,WORLD]}=> reactdir & "open_GluN2A_n146" & "." & seed & ".dat" 
+{COUNT[A_RO_n147,WORLD]}=> reactdir & "open_GluN2A_n147" & "." & seed & ".dat" 
+{COUNT[A_RO_n148,WORLD]}=> reactdir & "open_GluN2A_n148" & "." & seed & ".dat" 
+{COUNT[A_RO_n149,WORLD]}=> reactdir & "open_GluN2A_n149" & "." & seed & ".dat" 
+{COUNT[A_RO_n150,WORLD]}=> reactdir & "open_GluN2A_n150" & "." & seed & ".dat" 
+{COUNT[A_RO_n151,WORLD]}=> reactdir & "open_GluN2A_n151" & "." & seed & ".dat" 
+{COUNT[A_RO_n152,WORLD]}=> reactdir & "open_GluN2A_n152" & "." & seed & ".dat" 
+{COUNT[A_RO_n153,WORLD]}=> reactdir & "open_GluN2A_n153" & "." & seed & ".dat" 
+{COUNT[A_RO_n154,WORLD]}=> reactdir & "open_GluN2A_n154" & "." & seed & ".dat" 
+{COUNT[A_RO_n155,WORLD]}=> reactdir & "open_GluN2A_n155" & "." & seed & ".dat" 
+{COUNT[A_RO_n156,WORLD]}=> reactdir & "open_GluN2A_n156" & "." & seed & ".dat" 
+{COUNT[A_RO_n157,WORLD]}=> reactdir & "open_GluN2A_n157" & "." & seed & ".dat" 
+{COUNT[A_RO_n158,WORLD]}=> reactdir & "open_GluN2A_n158" & "." & seed & ".dat" 
+{COUNT[A_RO_n159,WORLD]}=> reactdir & "open_GluN2A_n159" & "." & seed & ".dat" 
+{COUNT[A_RO_n160,WORLD]}=> reactdir & "open_GluN2A_n160" & "." & seed & ".dat" 
+{COUNT[A_RO_n161,WORLD]}=> reactdir & "open_GluN2A_n161" & "." & seed & ".dat" 
+{COUNT[A_RO_n162,WORLD]}=> reactdir & "open_GluN2A_n162" & "." & seed & ".dat" 
+{COUNT[A_RO_n163,WORLD]}=> reactdir & "open_GluN2A_n163" & "." & seed & ".dat" 
+{COUNT[A_RO_n164,WORLD]}=> reactdir & "open_GluN2A_n164" & "." & seed & ".dat" 
+{COUNT[A_RO_n165,WORLD]}=> reactdir & "open_GluN2A_n165" & "." & seed & ".dat" 
+{COUNT[A_RO_n166,WORLD]}=> reactdir & "open_GluN2A_n166" & "." & seed & ".dat" 
+{COUNT[A_RO_n167,WORLD]}=> reactdir & "open_GluN2A_n167" & "." & seed & ".dat" 
+{COUNT[A_RO_n168,WORLD]}=> reactdir & "open_GluN2A_n168" & "." & seed & ".dat" 
+{COUNT[A_RO_n169,WORLD]}=> reactdir & "open_GluN2A_n169" & "." & seed & ".dat" 
+{COUNT[A_RO_n170,WORLD]}=> reactdir & "open_GluN2A_n170" & "." & seed & ".dat" 
+{COUNT[A_RO_n171,WORLD]}=> reactdir & "open_GluN2A_n171" & "." & seed & ".dat" 
+{COUNT[A_RO_n172,WORLD]}=> reactdir & "open_GluN2A_n172" & "." & seed & ".dat" 
+{COUNT[A_RO_n173,WORLD]}=> reactdir & "open_GluN2A_n173" & "." & seed & ".dat" 
+{COUNT[A_RO_n174,WORLD]}=> reactdir & "open_GluN2A_n174" & "." & seed & ".dat" 
+{COUNT[A_RO_n175,WORLD]}=> reactdir & "open_GluN2A_n175" & "." & seed & ".dat" 
+{COUNT[A_RO_n176,WORLD]}=> reactdir & "open_GluN2A_n176" & "." & seed & ".dat" 
+{COUNT[A_RO_n177,WORLD]}=> reactdir & "open_GluN2A_n177" & "." & seed & ".dat" 
+{COUNT[A_RO_n178,WORLD]}=> reactdir & "open_GluN2A_n178" & "." & seed & ".dat" 
+{COUNT[A_RO_n179,WORLD]}=> reactdir & "open_GluN2A_n179" & "." & seed & ".dat" 
+{COUNT[A_RO_n180,WORLD]}=> reactdir & "open_GluN2A_n180" & "." & seed & ".dat" 
+{COUNT[A_RO_n181,WORLD]}=> reactdir & "open_GluN2A_n181" & "." & seed & ".dat" 
+{COUNT[A_RO_n182,WORLD]}=> reactdir & "open_GluN2A_n182" & "." & seed & ".dat" 
+{COUNT[A_RO_n183,WORLD]}=> reactdir & "open_GluN2A_n183" & "." & seed & ".dat" 
+{COUNT[A_RO_n184,WORLD]}=> reactdir & "open_GluN2A_n184" & "." & seed & ".dat" 
+{COUNT[A_RO_n185,WORLD]}=> reactdir & "open_GluN2A_n185" & "." & seed & ".dat" 
+{COUNT[A_RO_n186,WORLD]}=> reactdir & "open_GluN2A_n186" & "." & seed & ".dat" 
+{COUNT[A_RO_n187,WORLD]}=> reactdir & "open_GluN2A_n187" & "." & seed & ".dat" 
+{COUNT[A_RO_n188,WORLD]}=> reactdir & "open_GluN2A_n188" & "." & seed & ".dat" 
+{COUNT[A_RO_n189,WORLD]}=> reactdir & "open_GluN2A_n189" & "." & seed & ".dat" 
+{COUNT[A_RO_n190,WORLD]}=> reactdir & "open_GluN2A_n190" & "." & seed & ".dat" 
+{COUNT[A_RO_n191,WORLD]}=> reactdir & "open_GluN2A_n191" & "." & seed & ".dat" 
+{COUNT[A_RO_n192,WORLD]}=> reactdir & "open_GluN2A_n192" & "." & seed & ".dat" 
+{COUNT[A_RO_n193,WORLD]}=> reactdir & "open_GluN2A_n193" & "." & seed & ".dat" 
+{COUNT[A_RO_n194,WORLD]}=> reactdir & "open_GluN2A_n194" & "." & seed & ".dat" 
+{COUNT[A_RO_n195,WORLD]}=> reactdir & "open_GluN2A_n195" & "." & seed & ".dat" 
+{COUNT[A_RO_n196,WORLD]}=> reactdir & "open_GluN2A_n196" & "." & seed & ".dat" 
+{COUNT[A_RO_n197,WORLD]}=> reactdir & "open_GluN2A_n197" & "." & seed & ".dat" 
+{COUNT[A_RO_n198,WORLD]}=> reactdir & "open_GluN2A_n198" & "." & seed & ".dat" 
+{COUNT[A_RO_n199,WORLD]}=> reactdir & "open_GluN2A_n199" & "." & seed & ".dat" 
+{COUNT[A_RO_n200,WORLD]}=> reactdir & "open_GluN2A_n200" & "." & seed & ".dat" 
+{COUNT[A_RO_n201,WORLD]}=> reactdir & "open_GluN2A_n201" & "." & seed & ".dat" 
+{COUNT[A_RO_n202,WORLD]}=> reactdir & "open_GluN2A_n202" & "." & seed & ".dat" 
+{COUNT[A_RO_n203,WORLD]}=> reactdir & "open_GluN2A_n203" & "." & seed & ".dat" 
+{COUNT[A_RO_n204,WORLD]}=> reactdir & "open_GluN2A_n204" & "." & seed & ".dat" 
+{COUNT[A_RO_n205,WORLD]}=> reactdir & "open_GluN2A_n205" & "." & seed & ".dat" 
+{COUNT[A_RO_n206,WORLD]}=> reactdir & "open_GluN2A_n206" & "." & seed & ".dat" 
+{COUNT[A_RO_n207,WORLD]}=> reactdir & "open_GluN2A_n207" & "." & seed & ".dat" 
+{COUNT[A_RO_n208,WORLD]}=> reactdir & "open_GluN2A_n208" & "." & seed & ".dat" 
+{COUNT[A_RO_n209,WORLD]}=> reactdir & "open_GluN2A_n209" & "." & seed & ".dat" 
+{COUNT[A_RO_n210,WORLD]}=> reactdir & "open_GluN2A_n210" & "." & seed & ".dat" 
+{COUNT[A_RO_n211,WORLD]}=> reactdir & "open_GluN2A_n211" & "." & seed & ".dat" 
+{COUNT[A_RO_n212,WORLD]}=> reactdir & "open_GluN2A_n212" & "." & seed & ".dat" 
+{COUNT[A_RO_n213,WORLD]}=> reactdir & "open_GluN2A_n213" & "." & seed & ".dat" 
+{COUNT[A_RO_n214,WORLD]}=> reactdir & "open_GluN2A_n214" & "." & seed & ".dat" 
+{COUNT[A_RO_n215,WORLD]}=> reactdir & "open_GluN2A_n215" & "." & seed & ".dat" 
+{COUNT[A_RO_n216,WORLD]}=> reactdir & "open_GluN2A_n216" & "." & seed & ".dat" 
+{COUNT[A_RO_n217,WORLD]}=> reactdir & "open_GluN2A_n217" & "." & seed & ".dat" 
+{COUNT[A_RO_n218,WORLD]}=> reactdir & "open_GluN2A_n218" & "." & seed & ".dat" 
+{COUNT[A_RO_n219,WORLD]}=> reactdir & "open_GluN2A_n219" & "." & seed & ".dat" 
+{COUNT[A_RO_n220,WORLD]}=> reactdir & "open_GluN2A_n220" & "." & seed & ".dat" 
+{COUNT[A_RO_n221,WORLD]}=> reactdir & "open_GluN2A_n221" & "." & seed & ".dat" 
+{COUNT[A_RO_n222,WORLD]}=> reactdir & "open_GluN2A_n222" & "." & seed & ".dat" 
+{COUNT[A_RO_n223,WORLD]}=> reactdir & "open_GluN2A_n223" & "." & seed & ".dat" 
+{COUNT[A_RO_n224,WORLD]}=> reactdir & "open_GluN2A_n224" & "." & seed & ".dat" 
+{COUNT[A_RO_n225,WORLD]}=> reactdir & "open_GluN2A_n225" & "." & seed & ".dat" 
+{COUNT[A_RO_n226,WORLD]}=> reactdir & "open_GluN2A_n226" & "." & seed & ".dat" 
+{COUNT[A_RO_n227,WORLD]}=> reactdir & "open_GluN2A_n227" & "." & seed & ".dat" 
+{COUNT[A_RO_n228,WORLD]}=> reactdir & "open_GluN2A_n228" & "." & seed & ".dat" 
+{COUNT[A_RO_n229,WORLD]}=> reactdir & "open_GluN2A_n229" & "." & seed & ".dat" 
+{COUNT[A_RO_n230,WORLD]}=> reactdir & "open_GluN2A_n230" & "." & seed & ".dat" 
+{COUNT[A_RO_n231,WORLD]}=> reactdir & "open_GluN2A_n231" & "." & seed & ".dat" 
+{COUNT[A_RO_n232,WORLD]}=> reactdir & "open_GluN2A_n232" & "." & seed & ".dat" 
+{COUNT[A_RO_n233,WORLD]}=> reactdir & "open_GluN2A_n233" & "." & seed & ".dat" 
+{COUNT[A_RO_n234,WORLD]}=> reactdir & "open_GluN2A_n234" & "." & seed & ".dat" 
+{COUNT[A_RO_n235,WORLD]}=> reactdir & "open_GluN2A_n235" & "." & seed & ".dat" 
+{COUNT[A_RO_n236,WORLD]}=> reactdir & "open_GluN2A_n236" & "." & seed & ".dat" 
+{COUNT[A_RO_n237,WORLD]}=> reactdir & "open_GluN2A_n237" & "." & seed & ".dat" 
+{COUNT[A_RO_n238,WORLD]}=> reactdir & "open_GluN2A_n238" & "." & seed & ".dat" 
+{COUNT[A_RO_n239,WORLD]}=> reactdir & "open_GluN2A_n239" & "." & seed & ".dat" 
+{COUNT[A_RO_n240,WORLD]}=> reactdir & "open_GluN2A_n240" & "." & seed & ".dat" 
+{COUNT[A_RO_n241,WORLD]}=> reactdir & "open_GluN2A_n241" & "." & seed & ".dat" 
+{COUNT[A_RO_n242,WORLD]}=> reactdir & "open_GluN2A_n242" & "." & seed & ".dat" 
+{COUNT[A_RO_n243,WORLD]}=> reactdir & "open_GluN2A_n243" & "." & seed & ".dat" 
+{COUNT[A_RO_n244,WORLD]}=> reactdir & "open_GluN2A_n244" & "." & seed & ".dat" 
+{COUNT[A_RO_n245,WORLD]}=> reactdir & "open_GluN2A_n245" & "." & seed & ".dat" 
+{COUNT[A_RO_n246,WORLD]}=> reactdir & "open_GluN2A_n246" & "." & seed & ".dat" 
+{COUNT[A_RO_n247,WORLD]}=> reactdir & "open_GluN2A_n247" & "." & seed & ".dat" 
+{COUNT[A_RO_n248,WORLD]}=> reactdir & "open_GluN2A_n248" & "." & seed & ".dat" 
+{COUNT[A_RO_n249,WORLD]}=> reactdir & "open_GluN2A_n249" & "." & seed & ".dat" 
+{COUNT[A_RO_n250,WORLD]}=> reactdir & "open_GluN2A_n250" & "." & seed & ".dat" 
+{COUNT[A_RO_n251,WORLD]}=> reactdir & "open_GluN2A_n251" & "." & seed & ".dat" 
+{COUNT[A_RO_n252,WORLD]}=> reactdir & "open_GluN2A_n252" & "." & seed & ".dat" 
+{COUNT[A_RO_n253,WORLD]}=> reactdir & "open_GluN2A_n253" & "." & seed & ".dat" 
+{COUNT[A_RO_n254,WORLD]}=> reactdir & "open_GluN2A_n254" & "." & seed & ".dat" 
+
+
+
+{COUNT[A_RO_n1,WORLD]+
+COUNT[A_RO_n2,WORLD]+
+COUNT[A_RO_n3,WORLD]+
+COUNT[A_RO_n4,WORLD]+
+COUNT[A_RO_n5,WORLD]+
+COUNT[A_RO_n6,WORLD]+
+COUNT[A_RO_n7,WORLD]+
+COUNT[A_RO_n8,WORLD]+
+COUNT[A_RO_n9,WORLD]+
+COUNT[A_RO_n10,WORLD]+
+COUNT[A_RO_n11,WORLD]+
+COUNT[A_RO_n12,WORLD]+
+COUNT[A_RO_n13,WORLD]+
+COUNT[A_RO_n14,WORLD]+
+COUNT[A_RO_n15,WORLD]+
+COUNT[A_RO_n16,WORLD]+
+COUNT[A_RO_n17,WORLD]+
+COUNT[A_RO_n18,WORLD]+
+COUNT[A_RO_n19,WORLD]+
+COUNT[A_RO_n20,WORLD]+
+COUNT[A_RO_n21,WORLD]+
+COUNT[A_RO_n22,WORLD]+
+COUNT[A_RO_n23,WORLD]+
+COUNT[A_RO_n24,WORLD]+
+COUNT[A_RO_n25,WORLD]+
+COUNT[A_RO_n26,WORLD]+
+COUNT[A_RO_n27,WORLD]+
+COUNT[A_RO_n28,WORLD]+
+COUNT[A_RO_n29,WORLD]+
+COUNT[A_RO_n30,WORLD]+
+COUNT[A_RO_n31,WORLD]+
+COUNT[A_RO_n32,WORLD]+
+COUNT[A_RO_n33,WORLD]+
+COUNT[A_RO_n34,WORLD]+
+COUNT[A_RO_n35,WORLD]+
+COUNT[A_RO_n36,WORLD]+
+COUNT[A_RO_n37,WORLD]+
+COUNT[A_RO_n38,WORLD]+
+COUNT[A_RO_n39,WORLD]+
+COUNT[A_RO_n40,WORLD]+
+COUNT[A_RO_n41,WORLD]+
+COUNT[A_RO_n42,WORLD]+
+COUNT[A_RO_n43,WORLD]+
+COUNT[A_RO_n44,WORLD]+
+COUNT[A_RO_n45,WORLD]+
+COUNT[A_RO_n46,WORLD]+
+COUNT[A_RO_n47,WORLD]+
+COUNT[A_RO_n48,WORLD]+
+COUNT[A_RO_n49,WORLD]+
+COUNT[A_RO_n50,WORLD]+
+COUNT[A_RO_n51,WORLD]+
+COUNT[A_RO_n52,WORLD]+
+COUNT[A_RO_n53,WORLD]+
+COUNT[A_RO_n54,WORLD]+
+COUNT[A_RO_n55,WORLD]+
+COUNT[A_RO_n56,WORLD]+
+COUNT[A_RO_n57,WORLD]+
+COUNT[A_RO_n58,WORLD]+
+COUNT[A_RO_n59,WORLD]+
+COUNT[A_RO_n60,WORLD]+
+COUNT[A_RO_n61,WORLD]+
+COUNT[A_RO_n62,WORLD]+
+COUNT[A_RO_n63,WORLD]+
+COUNT[A_RO_n64,WORLD]+
+COUNT[A_RO_n65,WORLD]+
+COUNT[A_RO_n66,WORLD]+
+COUNT[A_RO_n67,WORLD]+
+COUNT[A_RO_n68,WORLD]+
+COUNT[A_RO_n69,WORLD]+
+COUNT[A_RO_n70,WORLD]+
+COUNT[A_RO_n71,WORLD]+
+COUNT[A_RO_n72,WORLD]+
+COUNT[A_RO_n73,WORLD]+
+COUNT[A_RO_n74,WORLD]+
+COUNT[A_RO_n75,WORLD]+
+COUNT[A_RO_n76,WORLD]+
+COUNT[A_RO_n77,WORLD]+
+COUNT[A_RO_n78,WORLD]+
+COUNT[A_RO_n79,WORLD]+
+COUNT[A_RO_n80,WORLD]+
+COUNT[A_RO_n81,WORLD]+
+COUNT[A_RO_n82,WORLD]+
+COUNT[A_RO_n83,WORLD]+
+COUNT[A_RO_n84,WORLD]+
+COUNT[A_RO_n85,WORLD]+
+COUNT[A_RO_n86,WORLD]+
+COUNT[A_RO_n87,WORLD]+
+COUNT[A_RO_n88,WORLD]+
+COUNT[A_RO_n89,WORLD]+
+COUNT[A_RO_n90,WORLD]+
+COUNT[A_RO_n91,WORLD]+
+COUNT[A_RO_n92,WORLD]+
+COUNT[A_RO_n93,WORLD]+
+COUNT[A_RO_n94,WORLD]+
+COUNT[A_RO_n95,WORLD]+
+COUNT[A_RO_n96,WORLD]+
+COUNT[A_RO_n97,WORLD]+
+COUNT[A_RO_n98,WORLD]+
+COUNT[A_RO_n99,WORLD]+
+COUNT[A_RO_n100,WORLD]+
+COUNT[A_RO_n101,WORLD]+
+COUNT[A_RO_n102,WORLD]+
+COUNT[A_RO_n103,WORLD]+
+COUNT[A_RO_n104,WORLD]+
+COUNT[A_RO_n105,WORLD]+
+COUNT[A_RO_n106,WORLD]+
+COUNT[A_RO_n107,WORLD]+
+COUNT[A_RO_n108,WORLD]+
+COUNT[A_RO_n109,WORLD]+
+COUNT[A_RO_n110,WORLD]+
+COUNT[A_RO_n111,WORLD]+
+COUNT[A_RO_n112,WORLD]+
+COUNT[A_RO_n113,WORLD]+
+COUNT[A_RO_n114,WORLD]+
+COUNT[A_RO_n115,WORLD]+
+COUNT[A_RO_n116,WORLD]+
+COUNT[A_RO_n117,WORLD]+
+COUNT[A_RO_n118,WORLD]+
+COUNT[A_RO_n119,WORLD]+
+COUNT[A_RO_n120,WORLD]+
+COUNT[A_RO_n121,WORLD]+
+COUNT[A_RO_n122,WORLD]+
+COUNT[A_RO_n123,WORLD]+
+COUNT[A_RO_n124,WORLD]+
+COUNT[A_RO_n125,WORLD]+
+COUNT[A_RO_n126,WORLD]+
+COUNT[A_RO_n127,WORLD]+
+COUNT[A_RO_n128,WORLD]+
+COUNT[A_RO_n129,WORLD]+
+COUNT[A_RO_n130,WORLD]+
+COUNT[A_RO_n131,WORLD]+
+COUNT[A_RO_n132,WORLD]+
+COUNT[A_RO_n133,WORLD]+
+COUNT[A_RO_n134,WORLD]+
+COUNT[A_RO_n135,WORLD]+
+COUNT[A_RO_n136,WORLD]+
+COUNT[A_RO_n137,WORLD]+
+COUNT[A_RO_n138,WORLD]+
+COUNT[A_RO_n139,WORLD]+
+COUNT[A_RO_n140,WORLD]+
+COUNT[A_RO_n141,WORLD]+
+COUNT[A_RO_n142,WORLD]+
+COUNT[A_RO_n143,WORLD]+
+COUNT[A_RO_n144,WORLD]+
+COUNT[A_RO_n145,WORLD]+
+COUNT[A_RO_n146,WORLD]+
+COUNT[A_RO_n147,WORLD]+
+COUNT[A_RO_n148,WORLD]+
+COUNT[A_RO_n149,WORLD]+
+COUNT[A_RO_n150,WORLD]+
+COUNT[A_RO_n151,WORLD]+
+COUNT[A_RO_n152,WORLD]+
+COUNT[A_RO_n153,WORLD]+
+COUNT[A_RO_n154,WORLD]+
+COUNT[A_RO_n155,WORLD]+
+COUNT[A_RO_n156,WORLD]+
+COUNT[A_RO_n157,WORLD]+
+COUNT[A_RO_n158,WORLD]+
+COUNT[A_RO_n159,WORLD]+
+COUNT[A_RO_n160,WORLD]+
+COUNT[A_RO_n161,WORLD]+
+COUNT[A_RO_n162,WORLD]+
+COUNT[A_RO_n163,WORLD]+
+COUNT[A_RO_n164,WORLD]+
+COUNT[A_RO_n165,WORLD]+
+COUNT[A_RO_n166,WORLD]+
+COUNT[A_RO_n167,WORLD]+
+COUNT[A_RO_n168,WORLD]+
+COUNT[A_RO_n169,WORLD]+
+COUNT[A_RO_n170,WORLD]+
+COUNT[A_RO_n171,WORLD]+
+COUNT[A_RO_n172,WORLD]+
+COUNT[A_RO_n173,WORLD]+
+COUNT[A_RO_n174,WORLD]+
+COUNT[A_RO_n175,WORLD]+
+COUNT[A_RO_n176,WORLD]+
+COUNT[A_RO_n177,WORLD]+
+COUNT[A_RO_n178,WORLD]+
+COUNT[A_RO_n179,WORLD]+
+COUNT[A_RO_n180,WORLD]+
+COUNT[A_RO_n181,WORLD]+
+COUNT[A_RO_n182,WORLD]+
+COUNT[A_RO_n183,WORLD]+
+COUNT[A_RO_n184,WORLD]+
+COUNT[A_RO_n185,WORLD]+
+COUNT[A_RO_n186,WORLD]+
+COUNT[A_RO_n187,WORLD]+
+COUNT[A_RO_n188,WORLD]+
+COUNT[A_RO_n189,WORLD]+
+COUNT[A_RO_n190,WORLD]+
+COUNT[A_RO_n191,WORLD]+
+COUNT[A_RO_n192,WORLD]+
+COUNT[A_RO_n193,WORLD]+
+COUNT[A_RO_n194,WORLD]+
+COUNT[A_RO_n195,WORLD]+
+COUNT[A_RO_n196,WORLD]+
+COUNT[A_RO_n197,WORLD]+
+COUNT[A_RO_n198,WORLD]+
+COUNT[A_RO_n199,WORLD]+
+COUNT[A_RO_n200,WORLD]+
+COUNT[A_RO_n201,WORLD]+
+COUNT[A_RO_n202,WORLD]+
+COUNT[A_RO_n203,WORLD]+
+COUNT[A_RO_n204,WORLD]+
+COUNT[A_RO_n205,WORLD]+
+COUNT[A_RO_n206,WORLD]+
+COUNT[A_RO_n207,WORLD]+
+COUNT[A_RO_n208,WORLD]+
+COUNT[A_RO_n209,WORLD]+
+COUNT[A_RO_n210,WORLD]+
+COUNT[A_RO_n211,WORLD]+
+COUNT[A_RO_n212,WORLD]+
+COUNT[A_RO_n213,WORLD]+
+COUNT[A_RO_n214,WORLD]+
+COUNT[A_RO_n215,WORLD]+
+COUNT[A_RO_n216,WORLD]+
+COUNT[A_RO_n217,WORLD]+
+COUNT[A_RO_n218,WORLD]+
+COUNT[A_RO_n219,WORLD]+
+COUNT[A_RO_n220,WORLD]+
+COUNT[A_RO_n221,WORLD]+
+COUNT[A_RO_n222,WORLD]+
+COUNT[A_RO_n223,WORLD]+
+COUNT[A_RO_n224,WORLD]+
+COUNT[A_RO_n225,WORLD]+
+COUNT[A_RO_n226,WORLD]+
+COUNT[A_RO_n227,WORLD]+
+COUNT[A_RO_n228,WORLD]+
+COUNT[A_RO_n229,WORLD]+
+COUNT[A_RO_n230,WORLD]+
+COUNT[A_RO_n231,WORLD]+
+COUNT[A_RO_n232,WORLD]+
+COUNT[A_RO_n233,WORLD]+
+COUNT[A_RO_n234,WORLD]+
+COUNT[A_RO_n235,WORLD]+
+COUNT[A_RO_n236,WORLD]+
+COUNT[A_RO_n237,WORLD]+
+COUNT[A_RO_n238,WORLD]+
+COUNT[A_RO_n239,WORLD]+
+COUNT[A_RO_n240,WORLD]+
+COUNT[A_RO_n241,WORLD]+
+COUNT[A_RO_n242,WORLD]+
+COUNT[A_RO_n243,WORLD]+
+COUNT[A_RO_n244,WORLD]+
+COUNT[A_RO_n245,WORLD]+
+COUNT[A_RO_n246,WORLD]+
+COUNT[A_RO_n247,WORLD]+
+COUNT[A_RO_n248,WORLD]+
+COUNT[A_RO_n249,WORLD]+
+COUNT[A_RO_n250,WORLD]+
+COUNT[A_RO_n251,WORLD]+
+COUNT[A_RO_n252,WORLD]+
+COUNT[A_RO_n253,WORLD]+
+COUNT[A_RO_n254,WORLD]} => reactdir & "All_open_GluN2A" & "." & seed & ".dat"
+
+
+{COUNT[B_RO_n1,WORLD]}=> reactdir & "open_GluN2B_n1" & "." & seed & ".dat" 
+{COUNT[B_RO_n2,WORLD]}=> reactdir & "open_GluN2B_n2" & "." & seed & ".dat" 
+{COUNT[B_RO_n3,WORLD]}=> reactdir & "open_GluN2B_n3" & "." & seed & ".dat" 
+{COUNT[B_RO_n4,WORLD]}=> reactdir & "open_GluN2B_n4" & "." & seed & ".dat" 
+{COUNT[B_RO_n5,WORLD]}=> reactdir & "open_GluN2B_n5" & "." & seed & ".dat" 
+{COUNT[B_RO_n6,WORLD]}=> reactdir & "open_GluN2B_n6" & "." & seed & ".dat" 
+{COUNT[B_RO_n7,WORLD]}=> reactdir & "open_GluN2B_n7" & "." & seed & ".dat" 
+{COUNT[B_RO_n8,WORLD]}=> reactdir & "open_GluN2B_n8" & "." & seed & ".dat" 
+{COUNT[B_RO_n9,WORLD]}=> reactdir & "open_GluN2B_n9" & "." & seed & ".dat" 
+{COUNT[B_RO_n10,WORLD]}=> reactdir & "open_GluN2B_n10" & "." & seed & ".dat" 
+{COUNT[B_RO_n11,WORLD]}=> reactdir & "open_GluN2B_n11" & "." & seed & ".dat" 
+{COUNT[B_RO_n12,WORLD]}=> reactdir & "open_GluN2B_n12" & "." & seed & ".dat" 
+{COUNT[B_RO_n13,WORLD]}=> reactdir & "open_GluN2B_n13" & "." & seed & ".dat" 
+{COUNT[B_RO_n14,WORLD]}=> reactdir & "open_GluN2B_n14" & "." & seed & ".dat" 
+{COUNT[B_RO_n15,WORLD]}=> reactdir & "open_GluN2B_n15" & "." & seed & ".dat" 
+{COUNT[B_RO_n16,WORLD]}=> reactdir & "open_GluN2B_n16" & "." & seed & ".dat" 
+{COUNT[B_RO_n17,WORLD]}=> reactdir & "open_GluN2B_n17" & "." & seed & ".dat" 
+{COUNT[B_RO_n18,WORLD]}=> reactdir & "open_GluN2B_n18" & "." & seed & ".dat" 
+{COUNT[B_RO_n19,WORLD]}=> reactdir & "open_GluN2B_n19" & "." & seed & ".dat" 
+{COUNT[B_RO_n20,WORLD]}=> reactdir & "open_GluN2B_n20" & "." & seed & ".dat" 
+{COUNT[B_RO_n21,WORLD]}=> reactdir & "open_GluN2B_n21" & "." & seed & ".dat" 
+{COUNT[B_RO_n22,WORLD]}=> reactdir & "open_GluN2B_n22" & "." & seed & ".dat" 
+{COUNT[B_RO_n23,WORLD]}=> reactdir & "open_GluN2B_n23" & "." & seed & ".dat" 
+{COUNT[B_RO_n24,WORLD]}=> reactdir & "open_GluN2B_n24" & "." & seed & ".dat" 
+{COUNT[B_RO_n25,WORLD]}=> reactdir & "open_GluN2B_n25" & "." & seed & ".dat" 
+{COUNT[B_RO_n26,WORLD]}=> reactdir & "open_GluN2B_n26" & "." & seed & ".dat" 
+{COUNT[B_RO_n27,WORLD]}=> reactdir & "open_GluN2B_n27" & "." & seed & ".dat" 
+{COUNT[B_RO_n28,WORLD]}=> reactdir & "open_GluN2B_n28" & "." & seed & ".dat" 
+{COUNT[B_RO_n29,WORLD]}=> reactdir & "open_GluN2B_n29" & "." & seed & ".dat" 
+{COUNT[B_RO_n30,WORLD]}=> reactdir & "open_GluN2B_n30" & "." & seed & ".dat" 
+{COUNT[B_RO_n31,WORLD]}=> reactdir & "open_GluN2B_n31" & "." & seed & ".dat" 
+{COUNT[B_RO_n32,WORLD]}=> reactdir & "open_GluN2B_n32" & "." & seed & ".dat" 
+{COUNT[B_RO_n33,WORLD]}=> reactdir & "open_GluN2B_n33" & "." & seed & ".dat" 
+{COUNT[B_RO_n34,WORLD]}=> reactdir & "open_GluN2B_n34" & "." & seed & ".dat" 
+{COUNT[B_RO_n35,WORLD]}=> reactdir & "open_GluN2B_n35" & "." & seed & ".dat" 
+{COUNT[B_RO_n36,WORLD]}=> reactdir & "open_GluN2B_n36" & "." & seed & ".dat" 
+{COUNT[B_RO_n37,WORLD]}=> reactdir & "open_GluN2B_n37" & "." & seed & ".dat" 
+{COUNT[B_RO_n38,WORLD]}=> reactdir & "open_GluN2B_n38" & "." & seed & ".dat" 
+{COUNT[B_RO_n39,WORLD]}=> reactdir & "open_GluN2B_n39" & "." & seed & ".dat" 
+{COUNT[B_RO_n40,WORLD]}=> reactdir & "open_GluN2B_n40" & "." & seed & ".dat" 
+{COUNT[B_RO_n41,WORLD]}=> reactdir & "open_GluN2B_n41" & "." & seed & ".dat" 
+{COUNT[B_RO_n42,WORLD]}=> reactdir & "open_GluN2B_n42" & "." & seed & ".dat" 
+{COUNT[B_RO_n43,WORLD]}=> reactdir & "open_GluN2B_n43" & "." & seed & ".dat" 
+{COUNT[B_RO_n44,WORLD]}=> reactdir & "open_GluN2B_n44" & "." & seed & ".dat" 
+{COUNT[B_RO_n45,WORLD]}=> reactdir & "open_GluN2B_n45" & "." & seed & ".dat" 
+{COUNT[B_RO_n46,WORLD]}=> reactdir & "open_GluN2B_n46" & "." & seed & ".dat" 
+{COUNT[B_RO_n47,WORLD]}=> reactdir & "open_GluN2B_n47" & "." & seed & ".dat" 
+{COUNT[B_RO_n48,WORLD]}=> reactdir & "open_GluN2B_n48" & "." & seed & ".dat" 
+{COUNT[B_RO_n49,WORLD]}=> reactdir & "open_GluN2B_n49" & "." & seed & ".dat" 
+{COUNT[B_RO_n50,WORLD]}=> reactdir & "open_GluN2B_n50" & "." & seed & ".dat" 
+{COUNT[B_RO_n51,WORLD]}=> reactdir & "open_GluN2B_n51" & "." & seed & ".dat" 
+{COUNT[B_RO_n52,WORLD]}=> reactdir & "open_GluN2B_n52" & "." & seed & ".dat" 
+{COUNT[B_RO_n53,WORLD]}=> reactdir & "open_GluN2B_n53" & "." & seed & ".dat" 
+{COUNT[B_RO_n54,WORLD]}=> reactdir & "open_GluN2B_n54" & "." & seed & ".dat" 
+{COUNT[B_RO_n55,WORLD]}=> reactdir & "open_GluN2B_n55" & "." & seed & ".dat" 
+{COUNT[B_RO_n56,WORLD]}=> reactdir & "open_GluN2B_n56" & "." & seed & ".dat" 
+{COUNT[B_RO_n57,WORLD]}=> reactdir & "open_GluN2B_n57" & "." & seed & ".dat" 
+{COUNT[B_RO_n58,WORLD]}=> reactdir & "open_GluN2B_n58" & "." & seed & ".dat" 
+{COUNT[B_RO_n59,WORLD]}=> reactdir & "open_GluN2B_n59" & "." & seed & ".dat" 
+{COUNT[B_RO_n60,WORLD]}=> reactdir & "open_GluN2B_n60" & "." & seed & ".dat" 
+{COUNT[B_RO_n61,WORLD]}=> reactdir & "open_GluN2B_n61" & "." & seed & ".dat" 
+{COUNT[B_RO_n62,WORLD]}=> reactdir & "open_GluN2B_n62" & "." & seed & ".dat" 
+{COUNT[B_RO_n63,WORLD]}=> reactdir & "open_GluN2B_n63" & "." & seed & ".dat" 
+{COUNT[B_RO_n64,WORLD]}=> reactdir & "open_GluN2B_n64" & "." & seed & ".dat" 
+{COUNT[B_RO_n65,WORLD]}=> reactdir & "open_GluN2B_n65" & "." & seed & ".dat" 
+{COUNT[B_RO_n66,WORLD]}=> reactdir & "open_GluN2B_n66" & "." & seed & ".dat" 
+{COUNT[B_RO_n67,WORLD]}=> reactdir & "open_GluN2B_n67" & "." & seed & ".dat" 
+{COUNT[B_RO_n68,WORLD]}=> reactdir & "open_GluN2B_n68" & "." & seed & ".dat" 
+{COUNT[B_RO_n69,WORLD]}=> reactdir & "open_GluN2B_n69" & "." & seed & ".dat" 
+{COUNT[B_RO_n70,WORLD]}=> reactdir & "open_GluN2B_n70" & "." & seed & ".dat" 
+{COUNT[B_RO_n71,WORLD]}=> reactdir & "open_GluN2B_n71" & "." & seed & ".dat" 
+{COUNT[B_RO_n72,WORLD]}=> reactdir & "open_GluN2B_n72" & "." & seed & ".dat" 
+{COUNT[B_RO_n73,WORLD]}=> reactdir & "open_GluN2B_n73" & "." & seed & ".dat" 
+{COUNT[B_RO_n74,WORLD]}=> reactdir & "open_GluN2B_n74" & "." & seed & ".dat" 
+{COUNT[B_RO_n75,WORLD]}=> reactdir & "open_GluN2B_n75" & "." & seed & ".dat" 
+{COUNT[B_RO_n76,WORLD]}=> reactdir & "open_GluN2B_n76" & "." & seed & ".dat" 
+{COUNT[B_RO_n77,WORLD]}=> reactdir & "open_GluN2B_n77" & "." & seed & ".dat" 
+{COUNT[B_RO_n78,WORLD]}=> reactdir & "open_GluN2B_n78" & "." & seed & ".dat" 
+{COUNT[B_RO_n79,WORLD]}=> reactdir & "open_GluN2B_n79" & "." & seed & ".dat" 
+{COUNT[B_RO_n80,WORLD]}=> reactdir & "open_GluN2B_n80" & "." & seed & ".dat" 
+{COUNT[B_RO_n81,WORLD]}=> reactdir & "open_GluN2B_n81" & "." & seed & ".dat" 
+{COUNT[B_RO_n82,WORLD]}=> reactdir & "open_GluN2B_n82" & "." & seed & ".dat" 
+{COUNT[B_RO_n83,WORLD]}=> reactdir & "open_GluN2B_n83" & "." & seed & ".dat" 
+{COUNT[B_RO_n84,WORLD]}=> reactdir & "open_GluN2B_n84" & "." & seed & ".dat" 
+{COUNT[B_RO_n85,WORLD]}=> reactdir & "open_GluN2B_n85" & "." & seed & ".dat" 
+{COUNT[B_RO_n86,WORLD]}=> reactdir & "open_GluN2B_n86" & "." & seed & ".dat" 
+{COUNT[B_RO_n87,WORLD]}=> reactdir & "open_GluN2B_n87" & "." & seed & ".dat" 
+{COUNT[B_RO_n88,WORLD]}=> reactdir & "open_GluN2B_n88" & "." & seed & ".dat" 
+{COUNT[B_RO_n89,WORLD]}=> reactdir & "open_GluN2B_n89" & "." & seed & ".dat" 
+{COUNT[B_RO_n90,WORLD]}=> reactdir & "open_GluN2B_n90" & "." & seed & ".dat" 
+{COUNT[B_RO_n91,WORLD]}=> reactdir & "open_GluN2B_n91" & "." & seed & ".dat" 
+{COUNT[B_RO_n92,WORLD]}=> reactdir & "open_GluN2B_n92" & "." & seed & ".dat" 
+{COUNT[B_RO_n93,WORLD]}=> reactdir & "open_GluN2B_n93" & "." & seed & ".dat" 
+{COUNT[B_RO_n94,WORLD]}=> reactdir & "open_GluN2B_n94" & "." & seed & ".dat" 
+{COUNT[B_RO_n95,WORLD]}=> reactdir & "open_GluN2B_n95" & "." & seed & ".dat" 
+{COUNT[B_RO_n96,WORLD]}=> reactdir & "open_GluN2B_n96" & "." & seed & ".dat" 
+{COUNT[B_RO_n97,WORLD]}=> reactdir & "open_GluN2B_n97" & "." & seed & ".dat" 
+{COUNT[B_RO_n98,WORLD]}=> reactdir & "open_GluN2B_n98" & "." & seed & ".dat" 
+{COUNT[B_RO_n99,WORLD]}=> reactdir & "open_GluN2B_n99" & "." & seed & ".dat" 
+{COUNT[B_RO_n100,WORLD]}=> reactdir & "open_GluN2B_n100" & "." & seed & ".dat" 
+{COUNT[B_RO_n101,WORLD]}=> reactdir & "open_GluN2B_n101" & "." & seed & ".dat" 
+{COUNT[B_RO_n102,WORLD]}=> reactdir & "open_GluN2B_n102" & "." & seed & ".dat" 
+{COUNT[B_RO_n103,WORLD]}=> reactdir & "open_GluN2B_n103" & "." & seed & ".dat" 
+{COUNT[B_RO_n104,WORLD]}=> reactdir & "open_GluN2B_n104" & "." & seed & ".dat" 
+{COUNT[B_RO_n105,WORLD]}=> reactdir & "open_GluN2B_n105" & "." & seed & ".dat" 
+{COUNT[B_RO_n106,WORLD]}=> reactdir & "open_GluN2B_n106" & "." & seed & ".dat" 
+{COUNT[B_RO_n107,WORLD]}=> reactdir & "open_GluN2B_n107" & "." & seed & ".dat" 
+{COUNT[B_RO_n108,WORLD]}=> reactdir & "open_GluN2B_n108" & "." & seed & ".dat" 
+{COUNT[B_RO_n109,WORLD]}=> reactdir & "open_GluN2B_n109" & "." & seed & ".dat" 
+{COUNT[B_RO_n110,WORLD]}=> reactdir & "open_GluN2B_n110" & "." & seed & ".dat" 
+{COUNT[B_RO_n111,WORLD]}=> reactdir & "open_GluN2B_n111" & "." & seed & ".dat" 
+{COUNT[B_RO_n112,WORLD]}=> reactdir & "open_GluN2B_n112" & "." & seed & ".dat" 
+{COUNT[B_RO_n113,WORLD]}=> reactdir & "open_GluN2B_n113" & "." & seed & ".dat" 
+{COUNT[B_RO_n114,WORLD]}=> reactdir & "open_GluN2B_n114" & "." & seed & ".dat" 
+{COUNT[B_RO_n115,WORLD]}=> reactdir & "open_GluN2B_n115" & "." & seed & ".dat" 
+{COUNT[B_RO_n116,WORLD]}=> reactdir & "open_GluN2B_n116" & "." & seed & ".dat" 
+{COUNT[B_RO_n117,WORLD]}=> reactdir & "open_GluN2B_n117" & "." & seed & ".dat" 
+{COUNT[B_RO_n118,WORLD]}=> reactdir & "open_GluN2B_n118" & "." & seed & ".dat" 
+{COUNT[B_RO_n119,WORLD]}=> reactdir & "open_GluN2B_n119" & "." & seed & ".dat" 
+{COUNT[B_RO_n120,WORLD]}=> reactdir & "open_GluN2B_n120" & "." & seed & ".dat" 
+{COUNT[B_RO_n121,WORLD]}=> reactdir & "open_GluN2B_n121" & "." & seed & ".dat" 
+{COUNT[B_RO_n122,WORLD]}=> reactdir & "open_GluN2B_n122" & "." & seed & ".dat" 
+{COUNT[B_RO_n123,WORLD]}=> reactdir & "open_GluN2B_n123" & "." & seed & ".dat" 
+{COUNT[B_RO_n124,WORLD]}=> reactdir & "open_GluN2B_n124" & "." & seed & ".dat" 
+{COUNT[B_RO_n125,WORLD]}=> reactdir & "open_GluN2B_n125" & "." & seed & ".dat" 
+{COUNT[B_RO_n126,WORLD]}=> reactdir & "open_GluN2B_n126" & "." & seed & ".dat" 
+{COUNT[B_RO_n127,WORLD]}=> reactdir & "open_GluN2B_n127" & "." & seed & ".dat" 
+{COUNT[B_RO_n128,WORLD]}=> reactdir & "open_GluN2B_n128" & "." & seed & ".dat" 
+{COUNT[B_RO_n129,WORLD]}=> reactdir & "open_GluN2B_n129" & "." & seed & ".dat" 
+{COUNT[B_RO_n130,WORLD]}=> reactdir & "open_GluN2B_n130" & "." & seed & ".dat" 
+{COUNT[B_RO_n131,WORLD]}=> reactdir & "open_GluN2B_n131" & "." & seed & ".dat" 
+{COUNT[B_RO_n132,WORLD]}=> reactdir & "open_GluN2B_n132" & "." & seed & ".dat" 
+{COUNT[B_RO_n133,WORLD]}=> reactdir & "open_GluN2B_n133" & "." & seed & ".dat" 
+{COUNT[B_RO_n134,WORLD]}=> reactdir & "open_GluN2B_n134" & "." & seed & ".dat" 
+{COUNT[B_RO_n135,WORLD]}=> reactdir & "open_GluN2B_n135" & "." & seed & ".dat" 
+{COUNT[B_RO_n136,WORLD]}=> reactdir & "open_GluN2B_n136" & "." & seed & ".dat" 
+{COUNT[B_RO_n137,WORLD]}=> reactdir & "open_GluN2B_n137" & "." & seed & ".dat" 
+{COUNT[B_RO_n138,WORLD]}=> reactdir & "open_GluN2B_n138" & "." & seed & ".dat" 
+{COUNT[B_RO_n139,WORLD]}=> reactdir & "open_GluN2B_n139" & "." & seed & ".dat" 
+{COUNT[B_RO_n140,WORLD]}=> reactdir & "open_GluN2B_n140" & "." & seed & ".dat" 
+{COUNT[B_RO_n141,WORLD]}=> reactdir & "open_GluN2B_n141" & "." & seed & ".dat" 
+{COUNT[B_RO_n142,WORLD]}=> reactdir & "open_GluN2B_n142" & "." & seed & ".dat" 
+{COUNT[B_RO_n143,WORLD]}=> reactdir & "open_GluN2B_n143" & "." & seed & ".dat" 
+{COUNT[B_RO_n144,WORLD]}=> reactdir & "open_GluN2B_n144" & "." & seed & ".dat" 
+{COUNT[B_RO_n145,WORLD]}=> reactdir & "open_GluN2B_n145" & "." & seed & ".dat" 
+{COUNT[B_RO_n146,WORLD]}=> reactdir & "open_GluN2B_n146" & "." & seed & ".dat" 
+{COUNT[B_RO_n147,WORLD]}=> reactdir & "open_GluN2B_n147" & "." & seed & ".dat" 
+{COUNT[B_RO_n148,WORLD]}=> reactdir & "open_GluN2B_n148" & "." & seed & ".dat" 
+{COUNT[B_RO_n149,WORLD]}=> reactdir & "open_GluN2B_n149" & "." & seed & ".dat" 
+{COUNT[B_RO_n150,WORLD]}=> reactdir & "open_GluN2B_n150" & "." & seed & ".dat" 
+{COUNT[B_RO_n151,WORLD]}=> reactdir & "open_GluN2B_n151" & "." & seed & ".dat" 
+{COUNT[B_RO_n152,WORLD]}=> reactdir & "open_GluN2B_n152" & "." & seed & ".dat" 
+{COUNT[B_RO_n153,WORLD]}=> reactdir & "open_GluN2B_n153" & "." & seed & ".dat" 
+{COUNT[B_RO_n154,WORLD]}=> reactdir & "open_GluN2B_n154" & "." & seed & ".dat" 
+{COUNT[B_RO_n155,WORLD]}=> reactdir & "open_GluN2B_n155" & "." & seed & ".dat" 
+{COUNT[B_RO_n156,WORLD]}=> reactdir & "open_GluN2B_n156" & "." & seed & ".dat" 
+{COUNT[B_RO_n157,WORLD]}=> reactdir & "open_GluN2B_n157" & "." & seed & ".dat" 
+{COUNT[B_RO_n158,WORLD]}=> reactdir & "open_GluN2B_n158" & "." & seed & ".dat" 
+{COUNT[B_RO_n159,WORLD]}=> reactdir & "open_GluN2B_n159" & "." & seed & ".dat" 
+{COUNT[B_RO_n160,WORLD]}=> reactdir & "open_GluN2B_n160" & "." & seed & ".dat" 
+{COUNT[B_RO_n161,WORLD]}=> reactdir & "open_GluN2B_n161" & "." & seed & ".dat" 
+{COUNT[B_RO_n162,WORLD]}=> reactdir & "open_GluN2B_n162" & "." & seed & ".dat" 
+{COUNT[B_RO_n163,WORLD]}=> reactdir & "open_GluN2B_n163" & "." & seed & ".dat" 
+{COUNT[B_RO_n164,WORLD]}=> reactdir & "open_GluN2B_n164" & "." & seed & ".dat" 
+{COUNT[B_RO_n165,WORLD]}=> reactdir & "open_GluN2B_n165" & "." & seed & ".dat" 
+{COUNT[B_RO_n166,WORLD]}=> reactdir & "open_GluN2B_n166" & "." & seed & ".dat" 
+{COUNT[B_RO_n167,WORLD]}=> reactdir & "open_GluN2B_n167" & "." & seed & ".dat" 
+{COUNT[B_RO_n168,WORLD]}=> reactdir & "open_GluN2B_n168" & "." & seed & ".dat" 
+{COUNT[B_RO_n169,WORLD]}=> reactdir & "open_GluN2B_n169" & "." & seed & ".dat" 
+{COUNT[B_RO_n170,WORLD]}=> reactdir & "open_GluN2B_n170" & "." & seed & ".dat" 
+{COUNT[B_RO_n171,WORLD]}=> reactdir & "open_GluN2B_n171" & "." & seed & ".dat" 
+{COUNT[B_RO_n172,WORLD]}=> reactdir & "open_GluN2B_n172" & "." & seed & ".dat" 
+{COUNT[B_RO_n173,WORLD]}=> reactdir & "open_GluN2B_n173" & "." & seed & ".dat" 
+{COUNT[B_RO_n174,WORLD]}=> reactdir & "open_GluN2B_n174" & "." & seed & ".dat" 
+{COUNT[B_RO_n175,WORLD]}=> reactdir & "open_GluN2B_n175" & "." & seed & ".dat" 
+{COUNT[B_RO_n176,WORLD]}=> reactdir & "open_GluN2B_n176" & "." & seed & ".dat" 
+{COUNT[B_RO_n177,WORLD]}=> reactdir & "open_GluN2B_n177" & "." & seed & ".dat" 
+{COUNT[B_RO_n178,WORLD]}=> reactdir & "open_GluN2B_n178" & "." & seed & ".dat" 
+{COUNT[B_RO_n179,WORLD]}=> reactdir & "open_GluN2B_n179" & "." & seed & ".dat" 
+{COUNT[B_RO_n180,WORLD]}=> reactdir & "open_GluN2B_n180" & "." & seed & ".dat" 
+{COUNT[B_RO_n181,WORLD]}=> reactdir & "open_GluN2B_n181" & "." & seed & ".dat" 
+{COUNT[B_RO_n182,WORLD]}=> reactdir & "open_GluN2B_n182" & "." & seed & ".dat" 
+{COUNT[B_RO_n183,WORLD]}=> reactdir & "open_GluN2B_n183" & "." & seed & ".dat" 
+{COUNT[B_RO_n184,WORLD]}=> reactdir & "open_GluN2B_n184" & "." & seed & ".dat" 
+{COUNT[B_RO_n185,WORLD]}=> reactdir & "open_GluN2B_n185" & "." & seed & ".dat" 
+{COUNT[B_RO_n186,WORLD]}=> reactdir & "open_GluN2B_n186" & "." & seed & ".dat" 
+{COUNT[B_RO_n187,WORLD]}=> reactdir & "open_GluN2B_n187" & "." & seed & ".dat" 
+{COUNT[B_RO_n188,WORLD]}=> reactdir & "open_GluN2B_n188" & "." & seed & ".dat" 
+{COUNT[B_RO_n189,WORLD]}=> reactdir & "open_GluN2B_n189" & "." & seed & ".dat" 
+{COUNT[B_RO_n190,WORLD]}=> reactdir & "open_GluN2B_n190" & "." & seed & ".dat" 
+{COUNT[B_RO_n191,WORLD]}=> reactdir & "open_GluN2B_n191" & "." & seed & ".dat" 
+{COUNT[B_RO_n192,WORLD]}=> reactdir & "open_GluN2B_n192" & "." & seed & ".dat" 
+{COUNT[B_RO_n193,WORLD]}=> reactdir & "open_GluN2B_n193" & "." & seed & ".dat" 
+{COUNT[B_RO_n194,WORLD]}=> reactdir & "open_GluN2B_n194" & "." & seed & ".dat" 
+{COUNT[B_RO_n195,WORLD]}=> reactdir & "open_GluN2B_n195" & "." & seed & ".dat" 
+{COUNT[B_RO_n196,WORLD]}=> reactdir & "open_GluN2B_n196" & "." & seed & ".dat" 
+{COUNT[B_RO_n197,WORLD]}=> reactdir & "open_GluN2B_n197" & "." & seed & ".dat" 
+{COUNT[B_RO_n198,WORLD]}=> reactdir & "open_GluN2B_n198" & "." & seed & ".dat" 
+{COUNT[B_RO_n199,WORLD]}=> reactdir & "open_GluN2B_n199" & "." & seed & ".dat" 
+{COUNT[B_RO_n200,WORLD]}=> reactdir & "open_GluN2B_n200" & "." & seed & ".dat" 
+{COUNT[B_RO_n201,WORLD]}=> reactdir & "open_GluN2B_n201" & "." & seed & ".dat" 
+{COUNT[B_RO_n202,WORLD]}=> reactdir & "open_GluN2B_n202" & "." & seed & ".dat" 
+{COUNT[B_RO_n203,WORLD]}=> reactdir & "open_GluN2B_n203" & "." & seed & ".dat" 
+{COUNT[B_RO_n204,WORLD]}=> reactdir & "open_GluN2B_n204" & "." & seed & ".dat" 
+{COUNT[B_RO_n205,WORLD]}=> reactdir & "open_GluN2B_n205" & "." & seed & ".dat" 
+{COUNT[B_RO_n206,WORLD]}=> reactdir & "open_GluN2B_n206" & "." & seed & ".dat" 
+{COUNT[B_RO_n207,WORLD]}=> reactdir & "open_GluN2B_n207" & "." & seed & ".dat" 
+{COUNT[B_RO_n208,WORLD]}=> reactdir & "open_GluN2B_n208" & "." & seed & ".dat" 
+{COUNT[B_RO_n209,WORLD]}=> reactdir & "open_GluN2B_n209" & "." & seed & ".dat" 
+{COUNT[B_RO_n210,WORLD]}=> reactdir & "open_GluN2B_n210" & "." & seed & ".dat" 
+{COUNT[B_RO_n211,WORLD]}=> reactdir & "open_GluN2B_n211" & "." & seed & ".dat" 
+{COUNT[B_RO_n212,WORLD]}=> reactdir & "open_GluN2B_n212" & "." & seed & ".dat" 
+{COUNT[B_RO_n213,WORLD]}=> reactdir & "open_GluN2B_n213" & "." & seed & ".dat" 
+{COUNT[B_RO_n214,WORLD]}=> reactdir & "open_GluN2B_n214" & "." & seed & ".dat" 
+{COUNT[B_RO_n215,WORLD]}=> reactdir & "open_GluN2B_n215" & "." & seed & ".dat" 
+{COUNT[B_RO_n216,WORLD]}=> reactdir & "open_GluN2B_n216" & "." & seed & ".dat" 
+{COUNT[B_RO_n217,WORLD]}=> reactdir & "open_GluN2B_n217" & "." & seed & ".dat" 
+{COUNT[B_RO_n218,WORLD]}=> reactdir & "open_GluN2B_n218" & "." & seed & ".dat" 
+{COUNT[B_RO_n219,WORLD]}=> reactdir & "open_GluN2B_n219" & "." & seed & ".dat" 
+{COUNT[B_RO_n220,WORLD]}=> reactdir & "open_GluN2B_n220" & "." & seed & ".dat" 
+{COUNT[B_RO_n221,WORLD]}=> reactdir & "open_GluN2B_n221" & "." & seed & ".dat" 
+{COUNT[B_RO_n222,WORLD]}=> reactdir & "open_GluN2B_n222" & "." & seed & ".dat" 
+{COUNT[B_RO_n223,WORLD]}=> reactdir & "open_GluN2B_n223" & "." & seed & ".dat" 
+{COUNT[B_RO_n224,WORLD]}=> reactdir & "open_GluN2B_n224" & "." & seed & ".dat" 
+{COUNT[B_RO_n225,WORLD]}=> reactdir & "open_GluN2B_n225" & "." & seed & ".dat" 
+{COUNT[B_RO_n226,WORLD]}=> reactdir & "open_GluN2B_n226" & "." & seed & ".dat" 
+{COUNT[B_RO_n227,WORLD]}=> reactdir & "open_GluN2B_n227" & "." & seed & ".dat" 
+{COUNT[B_RO_n228,WORLD]}=> reactdir & "open_GluN2B_n228" & "." & seed & ".dat" 
+{COUNT[B_RO_n229,WORLD]}=> reactdir & "open_GluN2B_n229" & "." & seed & ".dat" 
+{COUNT[B_RO_n230,WORLD]}=> reactdir & "open_GluN2B_n230" & "." & seed & ".dat" 
+{COUNT[B_RO_n231,WORLD]}=> reactdir & "open_GluN2B_n231" & "." & seed & ".dat" 
+{COUNT[B_RO_n232,WORLD]}=> reactdir & "open_GluN2B_n232" & "." & seed & ".dat" 
+{COUNT[B_RO_n233,WORLD]}=> reactdir & "open_GluN2B_n233" & "." & seed & ".dat" 
+{COUNT[B_RO_n234,WORLD]}=> reactdir & "open_GluN2B_n234" & "." & seed & ".dat" 
+{COUNT[B_RO_n235,WORLD]}=> reactdir & "open_GluN2B_n235" & "." & seed & ".dat" 
+{COUNT[B_RO_n236,WORLD]}=> reactdir & "open_GluN2B_n236" & "." & seed & ".dat" 
+{COUNT[B_RO_n237,WORLD]}=> reactdir & "open_GluN2B_n237" & "." & seed & ".dat" 
+{COUNT[B_RO_n238,WORLD]}=> reactdir & "open_GluN2B_n238" & "." & seed & ".dat" 
+{COUNT[B_RO_n239,WORLD]}=> reactdir & "open_GluN2B_n239" & "." & seed & ".dat" 
+{COUNT[B_RO_n240,WORLD]}=> reactdir & "open_GluN2B_n240" & "." & seed & ".dat" 
+{COUNT[B_RO_n241,WORLD]}=> reactdir & "open_GluN2B_n241" & "." & seed & ".dat" 
+{COUNT[B_RO_n242,WORLD]}=> reactdir & "open_GluN2B_n242" & "." & seed & ".dat" 
+{COUNT[B_RO_n243,WORLD]}=> reactdir & "open_GluN2B_n243" & "." & seed & ".dat" 
+{COUNT[B_RO_n244,WORLD]}=> reactdir & "open_GluN2B_n244" & "." & seed & ".dat" 
+{COUNT[B_RO_n245,WORLD]}=> reactdir & "open_GluN2B_n245" & "." & seed & ".dat" 
+{COUNT[B_RO_n246,WORLD]}=> reactdir & "open_GluN2B_n246" & "." & seed & ".dat" 
+{COUNT[B_RO_n247,WORLD]}=> reactdir & "open_GluN2B_n247" & "." & seed & ".dat" 
+{COUNT[B_RO_n248,WORLD]}=> reactdir & "open_GluN2B_n248" & "." & seed & ".dat" 
+{COUNT[B_RO_n249,WORLD]}=> reactdir & "open_GluN2B_n249" & "." & seed & ".dat" 
+{COUNT[B_RO_n250,WORLD]}=> reactdir & "open_GluN2B_n250" & "." & seed & ".dat" 
+{COUNT[B_RO_n251,WORLD]}=> reactdir & "open_GluN2B_n251" & "." & seed & ".dat" 
+{COUNT[B_RO_n252,WORLD]}=> reactdir & "open_GluN2B_n252" & "." & seed & ".dat" 
+{COUNT[B_RO_n253,WORLD]}=> reactdir & "open_GluN2B_n253" & "." & seed & ".dat" 
+{COUNT[B_RO_n254,WORLD]}=> reactdir & "open_GluN2B_n254" & "." & seed & ".dat" 
+{COUNT[B_RO_n255,WORLD]}=> reactdir & "open_GluN2B_n255" & "." & seed & ".dat" 
+{COUNT[B_RO_n256,WORLD]}=> reactdir & "open_GluN2B_n256" & "." & seed & ".dat" 
+{COUNT[B_RO_n257,WORLD]}=> reactdir & "open_GluN2B_n257" & "." & seed & ".dat" 
+{COUNT[B_RO_n258,WORLD]}=> reactdir & "open_GluN2B_n258" & "." & seed & ".dat" 
+{COUNT[B_RO_n259,WORLD]}=> reactdir & "open_GluN2B_n259" & "." & seed & ".dat" 
+{COUNT[B_RO_n260,WORLD]}=> reactdir & "open_GluN2B_n260" & "." & seed & ".dat" 
+{COUNT[B_RO_n261,WORLD]}=> reactdir & "open_GluN2B_n261" & "." & seed & ".dat" 
+{COUNT[B_RO_n262,WORLD]}=> reactdir & "open_GluN2B_n262" & "." & seed & ".dat" 
+{COUNT[B_RO_n263,WORLD]}=> reactdir & "open_GluN2B_n263" & "." & seed & ".dat" 
+{COUNT[B_RO_n264,WORLD]}=> reactdir & "open_GluN2B_n264" & "." & seed & ".dat" 
+{COUNT[B_RO_n265,WORLD]}=> reactdir & "open_GluN2B_n265" & "." & seed & ".dat" 
+{COUNT[B_RO_n266,WORLD]}=> reactdir & "open_GluN2B_n266" & "." & seed & ".dat" 
+{COUNT[B_RO_n267,WORLD]}=> reactdir & "open_GluN2B_n267" & "." & seed & ".dat" 
+{COUNT[B_RO_n268,WORLD]}=> reactdir & "open_GluN2B_n268" & "." & seed & ".dat" 
+{COUNT[B_RO_n269,WORLD]}=> reactdir & "open_GluN2B_n269" & "." & seed & ".dat" 
+{COUNT[B_RO_n270,WORLD]}=> reactdir & "open_GluN2B_n270" & "." & seed & ".dat" 
+{COUNT[B_RO_n271,WORLD]}=> reactdir & "open_GluN2B_n271" & "." & seed & ".dat" 
+{COUNT[B_RO_n272,WORLD]}=> reactdir & "open_GluN2B_n272" & "." & seed & ".dat" 
+{COUNT[B_RO_n273,WORLD]}=> reactdir & "open_GluN2B_n273" & "." & seed & ".dat" 
+{COUNT[B_RO_n274,WORLD]}=> reactdir & "open_GluN2B_n274" & "." & seed & ".dat" 
+{COUNT[B_RO_n275,WORLD]}=> reactdir & "open_GluN2B_n275" & "." & seed & ".dat" 
+{COUNT[B_RO_n276,WORLD]}=> reactdir & "open_GluN2B_n276" & "." & seed & ".dat" 
+{COUNT[B_RO_n277,WORLD]}=> reactdir & "open_GluN2B_n277" & "." & seed & ".dat" 
+{COUNT[B_RO_n278,WORLD]}=> reactdir & "open_GluN2B_n278" & "." & seed & ".dat" 
+{COUNT[B_RO_n279,WORLD]}=> reactdir & "open_GluN2B_n279" & "." & seed & ".dat" 
+{COUNT[B_RO_n280,WORLD]}=> reactdir & "open_GluN2B_n280" & "." & seed & ".dat" 
+{COUNT[B_RO_n281,WORLD]}=> reactdir & "open_GluN2B_n281" & "." & seed & ".dat" 
+{COUNT[B_RO_n282,WORLD]}=> reactdir & "open_GluN2B_n282" & "." & seed & ".dat" 
+{COUNT[B_RO_n283,WORLD]}=> reactdir & "open_GluN2B_n283" & "." & seed & ".dat" 
+{COUNT[B_RO_n284,WORLD]}=> reactdir & "open_GluN2B_n284" & "." & seed & ".dat" 
+{COUNT[B_RO_n285,WORLD]}=> reactdir & "open_GluN2B_n285" & "." & seed & ".dat" 
+{COUNT[B_RO_n286,WORLD]}=> reactdir & "open_GluN2B_n286" & "." & seed & ".dat" 
+{COUNT[B_RO_n287,WORLD]}=> reactdir & "open_GluN2B_n287" & "." & seed & ".dat" 
+{COUNT[B_RO_n288,WORLD]}=> reactdir & "open_GluN2B_n288" & "." & seed & ".dat" 
+{COUNT[B_RO_n289,WORLD]}=> reactdir & "open_GluN2B_n289" & "." & seed & ".dat" 
+{COUNT[B_RO_n290,WORLD]}=> reactdir & "open_GluN2B_n290" & "." & seed & ".dat" 
+{COUNT[B_RO_n291,WORLD]}=> reactdir & "open_GluN2B_n291" & "." & seed & ".dat" 
+{COUNT[B_RO_n292,WORLD]}=> reactdir & "open_GluN2B_n292" & "." & seed & ".dat" 
+{COUNT[B_RO_n293,WORLD]}=> reactdir & "open_GluN2B_n293" & "." & seed & ".dat" 
+{COUNT[B_RO_n294,WORLD]}=> reactdir & "open_GluN2B_n294" & "." & seed & ".dat" 
+{COUNT[B_RO_n295,WORLD]}=> reactdir & "open_GluN2B_n295" & "." & seed & ".dat" 
+{COUNT[B_RO_n296,WORLD]}=> reactdir & "open_GluN2B_n296" & "." & seed & ".dat" 
+{COUNT[B_RO_n297,WORLD]}=> reactdir & "open_GluN2B_n297" & "." & seed & ".dat" 
+{COUNT[B_RO_n298,WORLD]}=> reactdir & "open_GluN2B_n298" & "." & seed & ".dat" 
+{COUNT[B_RO_n299,WORLD]}=> reactdir & "open_GluN2B_n299" & "." & seed & ".dat" 
+{COUNT[B_RO_n300,WORLD]}=> reactdir & "open_GluN2B_n300" & "." & seed & ".dat" 
+{COUNT[B_RO_n301,WORLD]}=> reactdir & "open_GluN2B_n301" & "." & seed & ".dat" 
+{COUNT[B_RO_n302,WORLD]}=> reactdir & "open_GluN2B_n302" & "." & seed & ".dat" 
+{COUNT[B_RO_n303,WORLD]}=> reactdir & "open_GluN2B_n303" & "." & seed & ".dat" 
+{COUNT[B_RO_n304,WORLD]}=> reactdir & "open_GluN2B_n304" & "." & seed & ".dat" 
+{COUNT[B_RO_n305,WORLD]}=> reactdir & "open_GluN2B_n305" & "." & seed & ".dat" 
+{COUNT[B_RO_n306,WORLD]}=> reactdir & "open_GluN2B_n306" & "." & seed & ".dat" 
+{COUNT[B_RO_n307,WORLD]}=> reactdir & "open_GluN2B_n307" & "." & seed & ".dat" 
+{COUNT[B_RO_n308,WORLD]}=> reactdir & "open_GluN2B_n308" & "." & seed & ".dat" 
+{COUNT[B_RO_n309,WORLD]}=> reactdir & "open_GluN2B_n309" & "." & seed & ".dat" 
+{COUNT[B_RO_n310,WORLD]}=> reactdir & "open_GluN2B_n310" & "." & seed & ".dat" 
+{COUNT[B_RO_n311,WORLD]}=> reactdir & "open_GluN2B_n311" & "." & seed & ".dat" 
+{COUNT[B_RO_n312,WORLD]}=> reactdir & "open_GluN2B_n312" & "." & seed & ".dat" 
+{COUNT[B_RO_n313,WORLD]}=> reactdir & "open_GluN2B_n313" & "." & seed & ".dat" 
+{COUNT[B_RO_n314,WORLD]}=> reactdir & "open_GluN2B_n314" & "." & seed & ".dat" 
+{COUNT[B_RO_n315,WORLD]}=> reactdir & "open_GluN2B_n315" & "." & seed & ".dat" 
+{COUNT[B_RO_n316,WORLD]}=> reactdir & "open_GluN2B_n316" & "." & seed & ".dat" 
+{COUNT[B_RO_n317,WORLD]}=> reactdir & "open_GluN2B_n317" & "." & seed & ".dat" 
+{COUNT[B_RO_n318,WORLD]}=> reactdir & "open_GluN2B_n318" & "." & seed & ".dat" 
+{COUNT[B_RO_n319,WORLD]}=> reactdir & "open_GluN2B_n319" & "." & seed & ".dat" 
+{COUNT[B_RO_n320,WORLD]}=> reactdir & "open_GluN2B_n320" & "." & seed & ".dat" 
+{COUNT[B_RO_n321,WORLD]}=> reactdir & "open_GluN2B_n321" & "." & seed & ".dat" 
+{COUNT[B_RO_n322,WORLD]}=> reactdir & "open_GluN2B_n322" & "." & seed & ".dat" 
+{COUNT[B_RO_n323,WORLD]}=> reactdir & "open_GluN2B_n323" & "." & seed & ".dat" 
+{COUNT[B_RO_n324,WORLD]}=> reactdir & "open_GluN2B_n324" & "." & seed & ".dat" 
+{COUNT[B_RO_n325,WORLD]}=> reactdir & "open_GluN2B_n325" & "." & seed & ".dat" 
+{COUNT[B_RO_n326,WORLD]}=> reactdir & "open_GluN2B_n326" & "." & seed & ".dat" 
+{COUNT[B_RO_n327,WORLD]}=> reactdir & "open_GluN2B_n327" & "." & seed & ".dat" 
+{COUNT[B_RO_n328,WORLD]}=> reactdir & "open_GluN2B_n328" & "." & seed & ".dat" 
+{COUNT[B_RO_n329,WORLD]}=> reactdir & "open_GluN2B_n329" & "." & seed & ".dat" 
+{COUNT[B_RO_n330,WORLD]}=> reactdir & "open_GluN2B_n330" & "." & seed & ".dat" 
+{COUNT[B_RO_n331,WORLD]}=> reactdir & "open_GluN2B_n331" & "." & seed & ".dat" 
+{COUNT[B_RO_n332,WORLD]}=> reactdir & "open_GluN2B_n332" & "." & seed & ".dat" 
+{COUNT[B_RO_n333,WORLD]}=> reactdir & "open_GluN2B_n333" & "." & seed & ".dat" 
+{COUNT[B_RO_n334,WORLD]}=> reactdir & "open_GluN2B_n334" & "." & seed & ".dat" 
+{COUNT[B_RO_n335,WORLD]}=> reactdir & "open_GluN2B_n335" & "." & seed & ".dat" 
+{COUNT[B_RO_n336,WORLD]}=> reactdir & "open_GluN2B_n336" & "." & seed & ".dat" 
+{COUNT[B_RO_n337,WORLD]}=> reactdir & "open_GluN2B_n337" & "." & seed & ".dat" 
+{COUNT[B_RO_n338,WORLD]}=> reactdir & "open_GluN2B_n338" & "." & seed & ".dat" 
+{COUNT[B_RO_n339,WORLD]}=> reactdir & "open_GluN2B_n339" & "." & seed & ".dat" 
+{COUNT[B_RO_n340,WORLD]}=> reactdir & "open_GluN2B_n340" & "." & seed & ".dat" 
+{COUNT[B_RO_n341,WORLD]}=> reactdir & "open_GluN2B_n341" & "." & seed & ".dat" 
+{COUNT[B_RO_n342,WORLD]}=> reactdir & "open_GluN2B_n342" & "." & seed & ".dat" 
+{COUNT[B_RO_n343,WORLD]}=> reactdir & "open_GluN2B_n343" & "." & seed & ".dat" 
+{COUNT[B_RO_n344,WORLD]}=> reactdir & "open_GluN2B_n344" & "." & seed & ".dat" 
+{COUNT[B_RO_n345,WORLD]}=> reactdir & "open_GluN2B_n345" & "." & seed & ".dat" 
+{COUNT[B_RO_n346,WORLD]}=> reactdir & "open_GluN2B_n346" & "." & seed & ".dat" 
+{COUNT[B_RO_n347,WORLD]}=> reactdir & "open_GluN2B_n347" & "." & seed & ".dat" 
+{COUNT[B_RO_n348,WORLD]}=> reactdir & "open_GluN2B_n348" & "." & seed & ".dat" 
+{COUNT[B_RO_n349,WORLD]}=> reactdir & "open_GluN2B_n349" & "." & seed & ".dat" 
+{COUNT[B_RO_n350,WORLD]}=> reactdir & "open_GluN2B_n350" & "." & seed & ".dat" 
+{COUNT[B_RO_n351,WORLD]}=> reactdir & "open_GluN2B_n351" & "." & seed & ".dat" 
+{COUNT[B_RO_n352,WORLD]}=> reactdir & "open_GluN2B_n352" & "." & seed & ".dat" 
+{COUNT[B_RO_n353,WORLD]}=> reactdir & "open_GluN2B_n353" & "." & seed & ".dat" 
+{COUNT[B_RO_n354,WORLD]}=> reactdir & "open_GluN2B_n354" & "." & seed & ".dat" 
+{COUNT[B_RO_n355,WORLD]}=> reactdir & "open_GluN2B_n355" & "." & seed & ".dat" 
+{COUNT[B_RO_n356,WORLD]}=> reactdir & "open_GluN2B_n356" & "." & seed & ".dat" 
+{COUNT[B_RO_n357,WORLD]}=> reactdir & "open_GluN2B_n357" & "." & seed & ".dat" 
+{COUNT[B_RO_n358,WORLD]}=> reactdir & "open_GluN2B_n358" & "." & seed & ".dat" 
+{COUNT[B_RO_n359,WORLD]}=> reactdir & "open_GluN2B_n359" & "." & seed & ".dat" 
+{COUNT[B_RO_n360,WORLD]}=> reactdir & "open_GluN2B_n360" & "." & seed & ".dat" 
+{COUNT[B_RO_n361,WORLD]}=> reactdir & "open_GluN2B_n361" & "." & seed & ".dat" 
+{COUNT[B_RO_n362,WORLD]}=> reactdir & "open_GluN2B_n362" & "." & seed & ".dat" 
+{COUNT[B_RO_n363,WORLD]}=> reactdir & "open_GluN2B_n363" & "." & seed & ".dat" 
+{COUNT[B_RO_n364,WORLD]}=> reactdir & "open_GluN2B_n364" & "." & seed & ".dat" 
+{COUNT[B_RO_n365,WORLD]}=> reactdir & "open_GluN2B_n365" & "." & seed & ".dat" 
+{COUNT[B_RO_n366,WORLD]}=> reactdir & "open_GluN2B_n366" & "." & seed & ".dat" 
+{COUNT[B_RO_n367,WORLD]}=> reactdir & "open_GluN2B_n367" & "." & seed & ".dat" 
+{COUNT[B_RO_n368,WORLD]}=> reactdir & "open_GluN2B_n368" & "." & seed & ".dat" 
+{COUNT[B_RO_n369,WORLD]}=> reactdir & "open_GluN2B_n369" & "." & seed & ".dat" 
+{COUNT[B_RO_n370,WORLD]}=> reactdir & "open_GluN2B_n370" & "." & seed & ".dat" 
+{COUNT[B_RO_n371,WORLD]}=> reactdir & "open_GluN2B_n371" & "." & seed & ".dat" 
+{COUNT[B_RO_n372,WORLD]}=> reactdir & "open_GluN2B_n372" & "." & seed & ".dat" 
+{COUNT[B_RO_n373,WORLD]}=> reactdir & "open_GluN2B_n373" & "." & seed & ".dat" 
+{COUNT[B_RO_n374,WORLD]}=> reactdir & "open_GluN2B_n374" & "." & seed & ".dat" 
+{COUNT[B_RO_n375,WORLD]}=> reactdir & "open_GluN2B_n375" & "." & seed & ".dat" 
+{COUNT[B_RO_n376,WORLD]}=> reactdir & "open_GluN2B_n376" & "." & seed & ".dat" 
+{COUNT[B_RO_n377,WORLD]}=> reactdir & "open_GluN2B_n377" & "." & seed & ".dat" 
+{COUNT[B_RO_n378,WORLD]}=> reactdir & "open_GluN2B_n378" & "." & seed & ".dat" 
+{COUNT[B_RO_n379,WORLD]}=> reactdir & "open_GluN2B_n379" & "." & seed & ".dat" 
+{COUNT[B_RO_n380,WORLD]}=> reactdir & "open_GluN2B_n380" & "." & seed & ".dat" 
+{COUNT[B_RO_n381,WORLD]}=> reactdir & "open_GluN2B_n381" & "." & seed & ".dat" 
+{COUNT[B_RO_n382,WORLD]}=> reactdir & "open_GluN2B_n382" & "." & seed & ".dat" 
+{COUNT[B_RO_n383,WORLD]}=> reactdir & "open_GluN2B_n383" & "." & seed & ".dat" 
+{COUNT[B_RO_n384,WORLD]}=> reactdir & "open_GluN2B_n384" & "." & seed & ".dat" 
+{COUNT[B_RO_n385,WORLD]}=> reactdir & "open_GluN2B_n385" & "." & seed & ".dat" 
+{COUNT[B_RO_n386,WORLD]}=> reactdir & "open_GluN2B_n386" & "." & seed & ".dat" 
+{COUNT[B_RO_n387,WORLD]}=> reactdir & "open_GluN2B_n387" & "." & seed & ".dat" 
+{COUNT[B_RO_n388,WORLD]}=> reactdir & "open_GluN2B_n388" & "." & seed & ".dat" 
+{COUNT[B_RO_n389,WORLD]}=> reactdir & "open_GluN2B_n389" & "." & seed & ".dat" 
+{COUNT[B_RO_n390,WORLD]}=> reactdir & "open_GluN2B_n390" & "." & seed & ".dat" 
+{COUNT[B_RO_n391,WORLD]}=> reactdir & "open_GluN2B_n391" & "." & seed & ".dat" 
+{COUNT[B_RO_n392,WORLD]}=> reactdir & "open_GluN2B_n392" & "." & seed & ".dat" 
+{COUNT[B_RO_n393,WORLD]}=> reactdir & "open_GluN2B_n393" & "." & seed & ".dat" 
+{COUNT[B_RO_n394,WORLD]}=> reactdir & "open_GluN2B_n394" & "." & seed & ".dat" 
+{COUNT[B_RO_n395,WORLD]}=> reactdir & "open_GluN2B_n395" & "." & seed & ".dat" 
+{COUNT[B_RO_n396,WORLD]}=> reactdir & "open_GluN2B_n396" & "." & seed & ".dat" 
+{COUNT[B_RO_n397,WORLD]}=> reactdir & "open_GluN2B_n397" & "." & seed & ".dat" 
+{COUNT[B_RO_n398,WORLD]}=> reactdir & "open_GluN2B_n398" & "." & seed & ".dat" 
+{COUNT[B_RO_n399,WORLD]}=> reactdir & "open_GluN2B_n399" & "." & seed & ".dat" 
+{COUNT[B_RO_n400,WORLD]}=> reactdir & "open_GluN2B_n400" & "." & seed & ".dat" 
+{COUNT[B_RO_n401,WORLD]}=> reactdir & "open_GluN2B_n401" & "." & seed & ".dat" 
+{COUNT[B_RO_n402,WORLD]}=> reactdir & "open_GluN2B_n402" & "." & seed & ".dat" 
+{COUNT[B_RO_n403,WORLD]}=> reactdir & "open_GluN2B_n403" & "." & seed & ".dat" 
+{COUNT[B_RO_n404,WORLD]}=> reactdir & "open_GluN2B_n404" & "." & seed & ".dat" 
+{COUNT[B_RO_n405,WORLD]}=> reactdir & "open_GluN2B_n405" & "." & seed & ".dat" 
+{COUNT[B_RO_n406,WORLD]}=> reactdir & "open_GluN2B_n406" & "." & seed & ".dat" 
+{COUNT[B_RO_n407,WORLD]}=> reactdir & "open_GluN2B_n407" & "." & seed & ".dat" 
+{COUNT[B_RO_n408,WORLD]}=> reactdir & "open_GluN2B_n408" & "." & seed & ".dat" 
+{COUNT[B_RO_n409,WORLD]}=> reactdir & "open_GluN2B_n409" & "." & seed & ".dat" 
+{COUNT[B_RO_n410,WORLD]}=> reactdir & "open_GluN2B_n410" & "." & seed & ".dat" 
+{COUNT[B_RO_n411,WORLD]}=> reactdir & "open_GluN2B_n411" & "." & seed & ".dat" 
+{COUNT[B_RO_n412,WORLD]}=> reactdir & "open_GluN2B_n412" & "." & seed & ".dat" 
+{COUNT[B_RO_n413,WORLD]}=> reactdir & "open_GluN2B_n413" & "." & seed & ".dat" 
+{COUNT[B_RO_n414,WORLD]}=> reactdir & "open_GluN2B_n414" & "." & seed & ".dat" 
+{COUNT[B_RO_n415,WORLD]}=> reactdir & "open_GluN2B_n415" & "." & seed & ".dat" 
+{COUNT[B_RO_n416,WORLD]}=> reactdir & "open_GluN2B_n416" & "." & seed & ".dat" 
+{COUNT[B_RO_n417,WORLD]}=> reactdir & "open_GluN2B_n417" & "." & seed & ".dat" 
+{COUNT[B_RO_n418,WORLD]}=> reactdir & "open_GluN2B_n418" & "." & seed & ".dat" 
+{COUNT[B_RO_n419,WORLD]}=> reactdir & "open_GluN2B_n419" & "." & seed & ".dat" 
+{COUNT[B_RO_n420,WORLD]}=> reactdir & "open_GluN2B_n420" & "." & seed & ".dat" 
+{COUNT[B_RO_n421,WORLD]}=> reactdir & "open_GluN2B_n421" & "." & seed & ".dat" 
+{COUNT[B_RO_n422,WORLD]}=> reactdir & "open_GluN2B_n422" & "." & seed & ".dat" 
+{COUNT[B_RO_n423,WORLD]}=> reactdir & "open_GluN2B_n423" & "." & seed & ".dat" 
+{COUNT[B_RO_n424,WORLD]}=> reactdir & "open_GluN2B_n424" & "." & seed & ".dat" 
+{COUNT[B_RO_n425,WORLD]}=> reactdir & "open_GluN2B_n425" & "." & seed & ".dat" 
+{COUNT[B_RO_n426,WORLD]}=> reactdir & "open_GluN2B_n426" & "." & seed & ".dat" 
+{COUNT[B_RO_n427,WORLD]}=> reactdir & "open_GluN2B_n427" & "." & seed & ".dat" 
+{COUNT[B_RO_n428,WORLD]}=> reactdir & "open_GluN2B_n428" & "." & seed & ".dat" 
+{COUNT[B_RO_n429,WORLD]}=> reactdir & "open_GluN2B_n429" & "." & seed & ".dat" 
+{COUNT[B_RO_n430,WORLD]}=> reactdir & "open_GluN2B_n430" & "." & seed & ".dat" 
+{COUNT[B_RO_n431,WORLD]}=> reactdir & "open_GluN2B_n431" & "." & seed & ".dat" 
+{COUNT[B_RO_n432,WORLD]}=> reactdir & "open_GluN2B_n432" & "." & seed & ".dat" 
+{COUNT[B_RO_n433,WORLD]}=> reactdir & "open_GluN2B_n433" & "." & seed & ".dat" 
+{COUNT[B_RO_n434,WORLD]}=> reactdir & "open_GluN2B_n434" & "." & seed & ".dat" 
+{COUNT[B_RO_n435,WORLD]}=> reactdir & "open_GluN2B_n435" & "." & seed & ".dat" 
+{COUNT[B_RO_n436,WORLD]}=> reactdir & "open_GluN2B_n436" & "." & seed & ".dat" 
+{COUNT[B_RO_n437,WORLD]}=> reactdir & "open_GluN2B_n437" & "." & seed & ".dat" 
+{COUNT[B_RO_n438,WORLD]}=> reactdir & "open_GluN2B_n438" & "." & seed & ".dat" 
+{COUNT[B_RO_n439,WORLD]}=> reactdir & "open_GluN2B_n439" & "." & seed & ".dat" 
+{COUNT[B_RO_n440,WORLD]}=> reactdir & "open_GluN2B_n440" & "." & seed & ".dat" 
+{COUNT[B_RO_n441,WORLD]}=> reactdir & "open_GluN2B_n441" & "." & seed & ".dat" 
+{COUNT[B_RO_n442,WORLD]}=> reactdir & "open_GluN2B_n442" & "." & seed & ".dat" 
+{COUNT[B_RO_n443,WORLD]}=> reactdir & "open_GluN2B_n443" & "." & seed & ".dat" 
+{COUNT[B_RO_n444,WORLD]}=> reactdir & "open_GluN2B_n444" & "." & seed & ".dat" 
+{COUNT[B_RO_n445,WORLD]}=> reactdir & "open_GluN2B_n445" & "." & seed & ".dat" 
+{COUNT[B_RO_n446,WORLD]}=> reactdir & "open_GluN2B_n446" & "." & seed & ".dat" 
+{COUNT[B_RO_n447,WORLD]}=> reactdir & "open_GluN2B_n447" & "." & seed & ".dat" 
+{COUNT[B_RO_n448,WORLD]}=> reactdir & "open_GluN2B_n448" & "." & seed & ".dat" 
+{COUNT[B_RO_n449,WORLD]}=> reactdir & "open_GluN2B_n449" & "." & seed & ".dat" 
+{COUNT[B_RO_n450,WORLD]}=> reactdir & "open_GluN2B_n450" & "." & seed & ".dat" 
+{COUNT[B_RO_n451,WORLD]}=> reactdir & "open_GluN2B_n451" & "." & seed & ".dat" 
+{COUNT[B_RO_n452,WORLD]}=> reactdir & "open_GluN2B_n452" & "." & seed & ".dat" 
+{COUNT[B_RO_n453,WORLD]}=> reactdir & "open_GluN2B_n453" & "." & seed & ".dat" 
+{COUNT[B_RO_n454,WORLD]}=> reactdir & "open_GluN2B_n454" & "." & seed & ".dat" 
+{COUNT[B_RO_n455,WORLD]}=> reactdir & "open_GluN2B_n455" & "." & seed & ".dat" 
+{COUNT[B_RO_n456,WORLD]}=> reactdir & "open_GluN2B_n456" & "." & seed & ".dat" 
+{COUNT[B_RO_n457,WORLD]}=> reactdir & "open_GluN2B_n457" & "." & seed & ".dat" 
+{COUNT[B_RO_n458,WORLD]}=> reactdir & "open_GluN2B_n458" & "." & seed & ".dat" 
+{COUNT[B_RO_n459,WORLD]}=> reactdir & "open_GluN2B_n459" & "." & seed & ".dat" 
+{COUNT[B_RO_n460,WORLD]}=> reactdir & "open_GluN2B_n460" & "." & seed & ".dat" 
+{COUNT[B_RO_n461,WORLD]}=> reactdir & "open_GluN2B_n461" & "." & seed & ".dat" 
+{COUNT[B_RO_n462,WORLD]}=> reactdir & "open_GluN2B_n462" & "." & seed & ".dat" 
+{COUNT[B_RO_n463,WORLD]}=> reactdir & "open_GluN2B_n463" & "." & seed & ".dat" 
+{COUNT[B_RO_n464,WORLD]}=> reactdir & "open_GluN2B_n464" & "." & seed & ".dat" 
+{COUNT[B_RO_n465,WORLD]}=> reactdir & "open_GluN2B_n465" & "." & seed & ".dat" 
+{COUNT[B_RO_n466,WORLD]}=> reactdir & "open_GluN2B_n466" & "." & seed & ".dat" 
+{COUNT[B_RO_n467,WORLD]}=> reactdir & "open_GluN2B_n467" & "." & seed & ".dat" 
+{COUNT[B_RO_n468,WORLD]}=> reactdir & "open_GluN2B_n468" & "." & seed & ".dat" 
+{COUNT[B_RO_n469,WORLD]}=> reactdir & "open_GluN2B_n469" & "." & seed & ".dat" 
+{COUNT[B_RO_n470,WORLD]}=> reactdir & "open_GluN2B_n470" & "." & seed & ".dat" 
+{COUNT[B_RO_n471,WORLD]}=> reactdir & "open_GluN2B_n471" & "." & seed & ".dat" 
+{COUNT[B_RO_n472,WORLD]}=> reactdir & "open_GluN2B_n472" & "." & seed & ".dat" 
+{COUNT[B_RO_n473,WORLD]}=> reactdir & "open_GluN2B_n473" & "." & seed & ".dat" 
+{COUNT[B_RO_n474,WORLD]}=> reactdir & "open_GluN2B_n474" & "." & seed & ".dat" 
+{COUNT[B_RO_n475,WORLD]}=> reactdir & "open_GluN2B_n475" & "." & seed & ".dat" 
+{COUNT[B_RO_n476,WORLD]}=> reactdir & "open_GluN2B_n476" & "." & seed & ".dat" 
+{COUNT[B_RO_n477,WORLD]}=> reactdir & "open_GluN2B_n477" & "." & seed & ".dat" 
+{COUNT[B_RO_n478,WORLD]}=> reactdir & "open_GluN2B_n478" & "." & seed & ".dat" 
+{COUNT[B_RO_n479,WORLD]}=> reactdir & "open_GluN2B_n479" & "." & seed & ".dat" 
+{COUNT[B_RO_n480,WORLD]}=> reactdir & "open_GluN2B_n480" & "." & seed & ".dat" 
+{COUNT[B_RO_n481,WORLD]}=> reactdir & "open_GluN2B_n481" & "." & seed & ".dat" 
+{COUNT[B_RO_n482,WORLD]}=> reactdir & "open_GluN2B_n482" & "." & seed & ".dat" 
+{COUNT[B_RO_n483,WORLD]}=> reactdir & "open_GluN2B_n483" & "." & seed & ".dat" 
+{COUNT[B_RO_n484,WORLD]}=> reactdir & "open_GluN2B_n484" & "." & seed & ".dat" 
+{COUNT[B_RO_n485,WORLD]}=> reactdir & "open_GluN2B_n485" & "." & seed & ".dat" 
+{COUNT[B_RO_n486,WORLD]}=> reactdir & "open_GluN2B_n486" & "." & seed & ".dat" 
+{COUNT[B_RO_n487,WORLD]}=> reactdir & "open_GluN2B_n487" & "." & seed & ".dat" 
+{COUNT[B_RO_n488,WORLD]}=> reactdir & "open_GluN2B_n488" & "." & seed & ".dat" 
+{COUNT[B_RO_n489,WORLD]}=> reactdir & "open_GluN2B_n489" & "." & seed & ".dat" 
+{COUNT[B_RO_n490,WORLD]}=> reactdir & "open_GluN2B_n490" & "." & seed & ".dat" 
+{COUNT[B_RO_n491,WORLD]}=> reactdir & "open_GluN2B_n491" & "." & seed & ".dat" 
+{COUNT[B_RO_n492,WORLD]}=> reactdir & "open_GluN2B_n492" & "." & seed & ".dat" 
+{COUNT[B_RO_n493,WORLD]}=> reactdir & "open_GluN2B_n493" & "." & seed & ".dat" 
+{COUNT[B_RO_n494,WORLD]}=> reactdir & "open_GluN2B_n494" & "." & seed & ".dat" 
+{COUNT[B_RO_n495,WORLD]}=> reactdir & "open_GluN2B_n495" & "." & seed & ".dat" 
+{COUNT[B_RO_n496,WORLD]}=> reactdir & "open_GluN2B_n496" & "." & seed & ".dat" 
+{COUNT[B_RO_n497,WORLD]}=> reactdir & "open_GluN2B_n497" & "." & seed & ".dat" 
+{COUNT[B_RO_n498,WORLD]}=> reactdir & "open_GluN2B_n498" & "." & seed & ".dat" 
+{COUNT[B_RO_n499,WORLD]}=> reactdir & "open_GluN2B_n499" & "." & seed & ".dat" 
+{COUNT[B_RO_n500,WORLD]}=> reactdir & "open_GluN2B_n500" & "." & seed & ".dat" 
+{COUNT[B_RO_n501,WORLD]}=> reactdir & "open_GluN2B_n501" & "." & seed & ".dat" 
+{COUNT[B_RO_n502,WORLD]}=> reactdir & "open_GluN2B_n502" & "." & seed & ".dat" 
+{COUNT[B_RO_n503,WORLD]}=> reactdir & "open_GluN2B_n503" & "." & seed & ".dat" 
+{COUNT[B_RO_n504,WORLD]}=> reactdir & "open_GluN2B_n504" & "." & seed & ".dat" 
+{COUNT[B_RO_n505,WORLD]}=> reactdir & "open_GluN2B_n505" & "." & seed & ".dat" 
+{COUNT[B_RO_n506,WORLD]}=> reactdir & "open_GluN2B_n506" & "." & seed & ".dat" 
+{COUNT[B_RO_n507,WORLD]}=> reactdir & "open_GluN2B_n507" & "." & seed & ".dat" 
+{COUNT[B_RO_n508,WORLD]}=> reactdir & "open_GluN2B_n508" & "." & seed & ".dat" 
+{COUNT[B_RO_n509,WORLD]}=> reactdir & "open_GluN2B_n509" & "." & seed & ".dat" 
+{COUNT[B_RO_n510,WORLD]}=> reactdir & "open_GluN2B_n510" & "." & seed & ".dat" 
+{COUNT[B_RO_n511,WORLD]}=> reactdir & "open_GluN2B_n511" & "." & seed & ".dat" 
+{COUNT[B_RO_n512,WORLD]}=> reactdir & "open_GluN2B_n512" & "." & seed & ".dat" 
+{COUNT[B_RO_n513,WORLD]}=> reactdir & "open_GluN2B_n513" & "." & seed & ".dat" 
+{COUNT[B_RO_n514,WORLD]}=> reactdir & "open_GluN2B_n514" & "." & seed & ".dat" 
+{COUNT[B_RO_n515,WORLD]}=> reactdir & "open_GluN2B_n515" & "." & seed & ".dat" 
+{COUNT[B_RO_n516,WORLD]}=> reactdir & "open_GluN2B_n516" & "." & seed & ".dat" 
+{COUNT[B_RO_n517,WORLD]}=> reactdir & "open_GluN2B_n517" & "." & seed & ".dat" 
+{COUNT[B_RO_n518,WORLD]}=> reactdir & "open_GluN2B_n518" & "." & seed & ".dat" 
+{COUNT[B_RO_n519,WORLD]}=> reactdir & "open_GluN2B_n519" & "." & seed & ".dat" 
+{COUNT[B_RO_n520,WORLD]}=> reactdir & "open_GluN2B_n520" & "." & seed & ".dat" 
+{COUNT[B_RO_n521,WORLD]}=> reactdir & "open_GluN2B_n521" & "." & seed & ".dat" 
+{COUNT[B_RO_n522,WORLD]}=> reactdir & "open_GluN2B_n522" & "." & seed & ".dat" 
+{COUNT[B_RO_n523,WORLD]}=> reactdir & "open_GluN2B_n523" & "." & seed & ".dat" 
+{COUNT[B_RO_n524,WORLD]}=> reactdir & "open_GluN2B_n524" & "." & seed & ".dat" 
+{COUNT[B_RO_n525,WORLD]}=> reactdir & "open_GluN2B_n525" & "." & seed & ".dat" 
+
+
+
+{COUNT[B_RO_n1,WORLD]+
+COUNT[B_RO_n2,WORLD]+
+COUNT[B_RO_n3,WORLD]+
+COUNT[B_RO_n4,WORLD]+
+COUNT[B_RO_n5,WORLD]+
+COUNT[B_RO_n6,WORLD]+
+COUNT[B_RO_n7,WORLD]+
+COUNT[B_RO_n8,WORLD]+
+COUNT[B_RO_n9,WORLD]+
+COUNT[B_RO_n10,WORLD]+
+COUNT[B_RO_n11,WORLD]+
+COUNT[B_RO_n12,WORLD]+
+COUNT[B_RO_n13,WORLD]+
+COUNT[B_RO_n14,WORLD]+
+COUNT[B_RO_n15,WORLD]+
+COUNT[B_RO_n16,WORLD]+
+COUNT[B_RO_n17,WORLD]+
+COUNT[B_RO_n18,WORLD]+
+COUNT[B_RO_n19,WORLD]+
+COUNT[B_RO_n20,WORLD]+
+COUNT[B_RO_n21,WORLD]+
+COUNT[B_RO_n22,WORLD]+
+COUNT[B_RO_n23,WORLD]+
+COUNT[B_RO_n24,WORLD]+
+COUNT[B_RO_n25,WORLD]+
+COUNT[B_RO_n26,WORLD]+
+COUNT[B_RO_n27,WORLD]+
+COUNT[B_RO_n28,WORLD]+
+COUNT[B_RO_n29,WORLD]+
+COUNT[B_RO_n30,WORLD]+
+COUNT[B_RO_n31,WORLD]+
+COUNT[B_RO_n32,WORLD]+
+COUNT[B_RO_n33,WORLD]+
+COUNT[B_RO_n34,WORLD]+
+COUNT[B_RO_n35,WORLD]+
+COUNT[B_RO_n36,WORLD]+
+COUNT[B_RO_n37,WORLD]+
+COUNT[B_RO_n38,WORLD]+
+COUNT[B_RO_n39,WORLD]+
+COUNT[B_RO_n40,WORLD]+
+COUNT[B_RO_n41,WORLD]+
+COUNT[B_RO_n42,WORLD]+
+COUNT[B_RO_n43,WORLD]+
+COUNT[B_RO_n44,WORLD]+
+COUNT[B_RO_n45,WORLD]+
+COUNT[B_RO_n46,WORLD]+
+COUNT[B_RO_n47,WORLD]+
+COUNT[B_RO_n48,WORLD]+
+COUNT[B_RO_n49,WORLD]+
+COUNT[B_RO_n50,WORLD]+
+COUNT[B_RO_n51,WORLD]+
+COUNT[B_RO_n52,WORLD]+
+COUNT[B_RO_n53,WORLD]+
+COUNT[B_RO_n54,WORLD]+
+COUNT[B_RO_n55,WORLD]+
+COUNT[B_RO_n56,WORLD]+
+COUNT[B_RO_n57,WORLD]+
+COUNT[B_RO_n58,WORLD]+
+COUNT[B_RO_n59,WORLD]+
+COUNT[B_RO_n60,WORLD]+
+COUNT[B_RO_n61,WORLD]+
+COUNT[B_RO_n62,WORLD]+
+COUNT[B_RO_n63,WORLD]+
+COUNT[B_RO_n64,WORLD]+
+COUNT[B_RO_n65,WORLD]+
+COUNT[B_RO_n66,WORLD]+
+COUNT[B_RO_n67,WORLD]+
+COUNT[B_RO_n68,WORLD]+
+COUNT[B_RO_n69,WORLD]+
+COUNT[B_RO_n70,WORLD]+
+COUNT[B_RO_n71,WORLD]+
+COUNT[B_RO_n72,WORLD]+
+COUNT[B_RO_n73,WORLD]+
+COUNT[B_RO_n74,WORLD]+
+COUNT[B_RO_n75,WORLD]+
+COUNT[B_RO_n76,WORLD]+
+COUNT[B_RO_n77,WORLD]+
+COUNT[B_RO_n78,WORLD]+
+COUNT[B_RO_n79,WORLD]+
+COUNT[B_RO_n80,WORLD]+
+COUNT[B_RO_n81,WORLD]+
+COUNT[B_RO_n82,WORLD]+
+COUNT[B_RO_n83,WORLD]+
+COUNT[B_RO_n84,WORLD]+
+COUNT[B_RO_n85,WORLD]+
+COUNT[B_RO_n86,WORLD]+
+COUNT[B_RO_n87,WORLD]+
+COUNT[B_RO_n88,WORLD]+
+COUNT[B_RO_n89,WORLD]+
+COUNT[B_RO_n90,WORLD]+
+COUNT[B_RO_n91,WORLD]+
+COUNT[B_RO_n92,WORLD]+
+COUNT[B_RO_n93,WORLD]+
+COUNT[B_RO_n94,WORLD]+
+COUNT[B_RO_n95,WORLD]+
+COUNT[B_RO_n96,WORLD]+
+COUNT[B_RO_n97,WORLD]+
+COUNT[B_RO_n98,WORLD]+
+COUNT[B_RO_n99,WORLD]+
+COUNT[B_RO_n100,WORLD]+
+COUNT[B_RO_n101,WORLD]+
+COUNT[B_RO_n102,WORLD]+
+COUNT[B_RO_n103,WORLD]+
+COUNT[B_RO_n104,WORLD]+
+COUNT[B_RO_n105,WORLD]+
+COUNT[B_RO_n106,WORLD]+
+COUNT[B_RO_n107,WORLD]+
+COUNT[B_RO_n108,WORLD]+
+COUNT[B_RO_n109,WORLD]+
+COUNT[B_RO_n110,WORLD]+
+COUNT[B_RO_n111,WORLD]+
+COUNT[B_RO_n112,WORLD]+
+COUNT[B_RO_n113,WORLD]+
+COUNT[B_RO_n114,WORLD]+
+COUNT[B_RO_n115,WORLD]+
+COUNT[B_RO_n116,WORLD]+
+COUNT[B_RO_n117,WORLD]+
+COUNT[B_RO_n118,WORLD]+
+COUNT[B_RO_n119,WORLD]+
+COUNT[B_RO_n120,WORLD]+
+COUNT[B_RO_n121,WORLD]+
+COUNT[B_RO_n122,WORLD]+
+COUNT[B_RO_n123,WORLD]+
+COUNT[B_RO_n124,WORLD]+
+COUNT[B_RO_n125,WORLD]+
+COUNT[B_RO_n126,WORLD]+
+COUNT[B_RO_n127,WORLD]+
+COUNT[B_RO_n128,WORLD]+
+COUNT[B_RO_n129,WORLD]+
+COUNT[B_RO_n130,WORLD]+
+COUNT[B_RO_n131,WORLD]+
+COUNT[B_RO_n132,WORLD]+
+COUNT[B_RO_n133,WORLD]+
+COUNT[B_RO_n134,WORLD]+
+COUNT[B_RO_n135,WORLD]+
+COUNT[B_RO_n136,WORLD]+
+COUNT[B_RO_n137,WORLD]+
+COUNT[B_RO_n138,WORLD]+
+COUNT[B_RO_n139,WORLD]+
+COUNT[B_RO_n140,WORLD]+
+COUNT[B_RO_n141,WORLD]+
+COUNT[B_RO_n142,WORLD]+
+COUNT[B_RO_n143,WORLD]+
+COUNT[B_RO_n144,WORLD]+
+COUNT[B_RO_n145,WORLD]+
+COUNT[B_RO_n146,WORLD]+
+COUNT[B_RO_n147,WORLD]+
+COUNT[B_RO_n148,WORLD]+
+COUNT[B_RO_n149,WORLD]+
+COUNT[B_RO_n150,WORLD]+
+COUNT[B_RO_n151,WORLD]+
+COUNT[B_RO_n152,WORLD]+
+COUNT[B_RO_n153,WORLD]+
+COUNT[B_RO_n154,WORLD]+
+COUNT[B_RO_n155,WORLD]+
+COUNT[B_RO_n156,WORLD]+
+COUNT[B_RO_n157,WORLD]+
+COUNT[B_RO_n158,WORLD]+
+COUNT[B_RO_n159,WORLD]+
+COUNT[B_RO_n160,WORLD]+
+COUNT[B_RO_n161,WORLD]+
+COUNT[B_RO_n162,WORLD]+
+COUNT[B_RO_n163,WORLD]+
+COUNT[B_RO_n164,WORLD]+
+COUNT[B_RO_n165,WORLD]+
+COUNT[B_RO_n166,WORLD]+
+COUNT[B_RO_n167,WORLD]+
+COUNT[B_RO_n168,WORLD]+
+COUNT[B_RO_n169,WORLD]+
+COUNT[B_RO_n170,WORLD]+
+COUNT[B_RO_n171,WORLD]+
+COUNT[B_RO_n172,WORLD]+
+COUNT[B_RO_n173,WORLD]+
+COUNT[B_RO_n174,WORLD]+
+COUNT[B_RO_n175,WORLD]+
+COUNT[B_RO_n176,WORLD]+
+COUNT[B_RO_n177,WORLD]+
+COUNT[B_RO_n178,WORLD]+
+COUNT[B_RO_n179,WORLD]+
+COUNT[B_RO_n180,WORLD]+
+COUNT[B_RO_n181,WORLD]+
+COUNT[B_RO_n182,WORLD]+
+COUNT[B_RO_n183,WORLD]+
+COUNT[B_RO_n184,WORLD]+
+COUNT[B_RO_n185,WORLD]+
+COUNT[B_RO_n186,WORLD]+
+COUNT[B_RO_n187,WORLD]+
+COUNT[B_RO_n188,WORLD]+
+COUNT[B_RO_n189,WORLD]+
+COUNT[B_RO_n190,WORLD]+
+COUNT[B_RO_n191,WORLD]+
+COUNT[B_RO_n192,WORLD]+
+COUNT[B_RO_n193,WORLD]+
+COUNT[B_RO_n194,WORLD]+
+COUNT[B_RO_n195,WORLD]+
+COUNT[B_RO_n196,WORLD]+
+COUNT[B_RO_n197,WORLD]+
+COUNT[B_RO_n198,WORLD]+
+COUNT[B_RO_n199,WORLD]+
+COUNT[B_RO_n200,WORLD]+
+COUNT[B_RO_n201,WORLD]+
+COUNT[B_RO_n202,WORLD]+
+COUNT[B_RO_n203,WORLD]+
+COUNT[B_RO_n204,WORLD]+
+COUNT[B_RO_n205,WORLD]+
+COUNT[B_RO_n206,WORLD]+
+COUNT[B_RO_n207,WORLD]+
+COUNT[B_RO_n208,WORLD]+
+COUNT[B_RO_n209,WORLD]+
+COUNT[B_RO_n210,WORLD]+
+COUNT[B_RO_n211,WORLD]+
+COUNT[B_RO_n212,WORLD]+
+COUNT[B_RO_n213,WORLD]+
+COUNT[B_RO_n214,WORLD]+
+COUNT[B_RO_n215,WORLD]+
+COUNT[B_RO_n216,WORLD]+
+COUNT[B_RO_n217,WORLD]+
+COUNT[B_RO_n218,WORLD]+
+COUNT[B_RO_n219,WORLD]+
+COUNT[B_RO_n220,WORLD]+
+COUNT[B_RO_n221,WORLD]+
+COUNT[B_RO_n222,WORLD]+
+COUNT[B_RO_n223,WORLD]+
+COUNT[B_RO_n224,WORLD]+
+COUNT[B_RO_n225,WORLD]+
+COUNT[B_RO_n226,WORLD]+
+COUNT[B_RO_n227,WORLD]+
+COUNT[B_RO_n228,WORLD]+
+COUNT[B_RO_n229,WORLD]+
+COUNT[B_RO_n230,WORLD]+
+COUNT[B_RO_n231,WORLD]+
+COUNT[B_RO_n232,WORLD]+
+COUNT[B_RO_n233,WORLD]+
+COUNT[B_RO_n234,WORLD]+
+COUNT[B_RO_n235,WORLD]+
+COUNT[B_RO_n236,WORLD]+
+COUNT[B_RO_n237,WORLD]+
+COUNT[B_RO_n238,WORLD]+
+COUNT[B_RO_n239,WORLD]+
+COUNT[B_RO_n240,WORLD]+
+COUNT[B_RO_n241,WORLD]+
+COUNT[B_RO_n242,WORLD]+
+COUNT[B_RO_n243,WORLD]+
+COUNT[B_RO_n244,WORLD]+
+COUNT[B_RO_n245,WORLD]+
+COUNT[B_RO_n246,WORLD]+
+COUNT[B_RO_n247,WORLD]+
+COUNT[B_RO_n248,WORLD]+
+COUNT[B_RO_n249,WORLD]+
+COUNT[B_RO_n250,WORLD]+
+COUNT[B_RO_n251,WORLD]+
+COUNT[B_RO_n252,WORLD]+
+COUNT[B_RO_n253,WORLD]+
+COUNT[B_RO_n254,WORLD]+
+COUNT[B_RO_n255,WORLD]+
+COUNT[B_RO_n256,WORLD]+
+COUNT[B_RO_n257,WORLD]+
+COUNT[B_RO_n258,WORLD]+
+COUNT[B_RO_n259,WORLD]+
+COUNT[B_RO_n260,WORLD]+
+COUNT[B_RO_n261,WORLD]+
+COUNT[B_RO_n262,WORLD]+
+COUNT[B_RO_n263,WORLD]+
+COUNT[B_RO_n264,WORLD]+
+COUNT[B_RO_n265,WORLD]+
+COUNT[B_RO_n266,WORLD]+
+COUNT[B_RO_n267,WORLD]+
+COUNT[B_RO_n268,WORLD]+
+COUNT[B_RO_n269,WORLD]+
+COUNT[B_RO_n270,WORLD]+
+COUNT[B_RO_n271,WORLD]+
+COUNT[B_RO_n272,WORLD]+
+COUNT[B_RO_n273,WORLD]+
+COUNT[B_RO_n274,WORLD]+
+COUNT[B_RO_n275,WORLD]+
+COUNT[B_RO_n276,WORLD]+
+COUNT[B_RO_n277,WORLD]+
+COUNT[B_RO_n278,WORLD]+
+COUNT[B_RO_n279,WORLD]+
+COUNT[B_RO_n280,WORLD]+
+COUNT[B_RO_n281,WORLD]+
+COUNT[B_RO_n282,WORLD]+
+COUNT[B_RO_n283,WORLD]+
+COUNT[B_RO_n284,WORLD]+
+COUNT[B_RO_n285,WORLD]+
+COUNT[B_RO_n286,WORLD]+
+COUNT[B_RO_n287,WORLD]+
+COUNT[B_RO_n288,WORLD]+
+COUNT[B_RO_n289,WORLD]+
+COUNT[B_RO_n290,WORLD]+
+COUNT[B_RO_n291,WORLD]+
+COUNT[B_RO_n292,WORLD]+
+COUNT[B_RO_n293,WORLD]+
+COUNT[B_RO_n294,WORLD]+
+COUNT[B_RO_n295,WORLD]+
+COUNT[B_RO_n296,WORLD]+
+COUNT[B_RO_n297,WORLD]+
+COUNT[B_RO_n298,WORLD]+
+COUNT[B_RO_n299,WORLD]+
+COUNT[B_RO_n300,WORLD]+
+COUNT[B_RO_n301,WORLD]+
+COUNT[B_RO_n302,WORLD]+
+COUNT[B_RO_n303,WORLD]+
+COUNT[B_RO_n304,WORLD]+
+COUNT[B_RO_n305,WORLD]+
+COUNT[B_RO_n306,WORLD]+
+COUNT[B_RO_n307,WORLD]+
+COUNT[B_RO_n308,WORLD]+
+COUNT[B_RO_n309,WORLD]+
+COUNT[B_RO_n310,WORLD]+
+COUNT[B_RO_n311,WORLD]+
+COUNT[B_RO_n312,WORLD]+
+COUNT[B_RO_n313,WORLD]+
+COUNT[B_RO_n314,WORLD]+
+COUNT[B_RO_n315,WORLD]+
+COUNT[B_RO_n316,WORLD]+
+COUNT[B_RO_n317,WORLD]+
+COUNT[B_RO_n318,WORLD]+
+COUNT[B_RO_n319,WORLD]+
+COUNT[B_RO_n320,WORLD]+
+COUNT[B_RO_n321,WORLD]+
+COUNT[B_RO_n322,WORLD]+
+COUNT[B_RO_n323,WORLD]+
+COUNT[B_RO_n324,WORLD]+
+COUNT[B_RO_n325,WORLD]+
+COUNT[B_RO_n326,WORLD]+
+COUNT[B_RO_n327,WORLD]+
+COUNT[B_RO_n328,WORLD]+
+COUNT[B_RO_n329,WORLD]+
+COUNT[B_RO_n330,WORLD]+
+COUNT[B_RO_n331,WORLD]+
+COUNT[B_RO_n332,WORLD]+
+COUNT[B_RO_n333,WORLD]+
+COUNT[B_RO_n334,WORLD]+
+COUNT[B_RO_n335,WORLD]+
+COUNT[B_RO_n336,WORLD]+
+COUNT[B_RO_n337,WORLD]+
+COUNT[B_RO_n338,WORLD]+
+COUNT[B_RO_n339,WORLD]+
+COUNT[B_RO_n340,WORLD]+
+COUNT[B_RO_n341,WORLD]+
+COUNT[B_RO_n342,WORLD]+
+COUNT[B_RO_n343,WORLD]+
+COUNT[B_RO_n344,WORLD]+
+COUNT[B_RO_n345,WORLD]+
+COUNT[B_RO_n346,WORLD]+
+COUNT[B_RO_n347,WORLD]+
+COUNT[B_RO_n348,WORLD]+
+COUNT[B_RO_n349,WORLD]+
+COUNT[B_RO_n350,WORLD]+
+COUNT[B_RO_n351,WORLD]+
+COUNT[B_RO_n352,WORLD]+
+COUNT[B_RO_n353,WORLD]+
+COUNT[B_RO_n354,WORLD]+
+COUNT[B_RO_n355,WORLD]+
+COUNT[B_RO_n356,WORLD]+
+COUNT[B_RO_n357,WORLD]+
+COUNT[B_RO_n358,WORLD]+
+COUNT[B_RO_n359,WORLD]+
+COUNT[B_RO_n360,WORLD]+
+COUNT[B_RO_n361,WORLD]+
+COUNT[B_RO_n362,WORLD]+
+COUNT[B_RO_n363,WORLD]+
+COUNT[B_RO_n364,WORLD]+
+COUNT[B_RO_n365,WORLD]+
+COUNT[B_RO_n366,WORLD]+
+COUNT[B_RO_n367,WORLD]+
+COUNT[B_RO_n368,WORLD]+
+COUNT[B_RO_n369,WORLD]+
+COUNT[B_RO_n370,WORLD]+
+COUNT[B_RO_n371,WORLD]+
+COUNT[B_RO_n372,WORLD]+
+COUNT[B_RO_n373,WORLD]+
+COUNT[B_RO_n374,WORLD]+
+COUNT[B_RO_n375,WORLD]+
+COUNT[B_RO_n376,WORLD]+
+COUNT[B_RO_n377,WORLD]+
+COUNT[B_RO_n378,WORLD]+
+COUNT[B_RO_n379,WORLD]+
+COUNT[B_RO_n380,WORLD]+
+COUNT[B_RO_n381,WORLD]+
+COUNT[B_RO_n382,WORLD]+
+COUNT[B_RO_n383,WORLD]+
+COUNT[B_RO_n384,WORLD]+
+COUNT[B_RO_n385,WORLD]+
+COUNT[B_RO_n386,WORLD]+
+COUNT[B_RO_n387,WORLD]+
+COUNT[B_RO_n388,WORLD]+
+COUNT[B_RO_n389,WORLD]+
+COUNT[B_RO_n390,WORLD]+
+COUNT[B_RO_n391,WORLD]+
+COUNT[B_RO_n392,WORLD]+
+COUNT[B_RO_n393,WORLD]+
+COUNT[B_RO_n394,WORLD]+
+COUNT[B_RO_n395,WORLD]+
+COUNT[B_RO_n396,WORLD]+
+COUNT[B_RO_n397,WORLD]+
+COUNT[B_RO_n398,WORLD]+
+COUNT[B_RO_n399,WORLD]+
+COUNT[B_RO_n400,WORLD]+
+COUNT[B_RO_n401,WORLD]+
+COUNT[B_RO_n402,WORLD]+
+COUNT[B_RO_n403,WORLD]+
+COUNT[B_RO_n404,WORLD]+
+COUNT[B_RO_n405,WORLD]+
+COUNT[B_RO_n406,WORLD]+
+COUNT[B_RO_n407,WORLD]+
+COUNT[B_RO_n408,WORLD]+
+COUNT[B_RO_n409,WORLD]+
+COUNT[B_RO_n410,WORLD]+
+COUNT[B_RO_n411,WORLD]+
+COUNT[B_RO_n412,WORLD]+
+COUNT[B_RO_n413,WORLD]+
+COUNT[B_RO_n414,WORLD]+
+COUNT[B_RO_n415,WORLD]+
+COUNT[B_RO_n416,WORLD]+
+COUNT[B_RO_n417,WORLD]+
+COUNT[B_RO_n418,WORLD]+
+COUNT[B_RO_n419,WORLD]+
+COUNT[B_RO_n420,WORLD]+
+COUNT[B_RO_n421,WORLD]+
+COUNT[B_RO_n422,WORLD]+
+COUNT[B_RO_n423,WORLD]+
+COUNT[B_RO_n424,WORLD]+
+COUNT[B_RO_n425,WORLD]+
+COUNT[B_RO_n426,WORLD]+
+COUNT[B_RO_n427,WORLD]+
+COUNT[B_RO_n428,WORLD]+
+COUNT[B_RO_n429,WORLD]+
+COUNT[B_RO_n430,WORLD]+
+COUNT[B_RO_n431,WORLD]+
+COUNT[B_RO_n432,WORLD]+
+COUNT[B_RO_n433,WORLD]+
+COUNT[B_RO_n434,WORLD]+
+COUNT[B_RO_n435,WORLD]+
+COUNT[B_RO_n436,WORLD]+
+COUNT[B_RO_n437,WORLD]+
+COUNT[B_RO_n438,WORLD]+
+COUNT[B_RO_n439,WORLD]+
+COUNT[B_RO_n440,WORLD]+
+COUNT[B_RO_n441,WORLD]+
+COUNT[B_RO_n442,WORLD]+
+COUNT[B_RO_n443,WORLD]+
+COUNT[B_RO_n444,WORLD]+
+COUNT[B_RO_n445,WORLD]+
+COUNT[B_RO_n446,WORLD]+
+COUNT[B_RO_n447,WORLD]+
+COUNT[B_RO_n448,WORLD]+
+COUNT[B_RO_n449,WORLD]+
+COUNT[B_RO_n450,WORLD]+
+COUNT[B_RO_n451,WORLD]+
+COUNT[B_RO_n452,WORLD]+
+COUNT[B_RO_n453,WORLD]+
+COUNT[B_RO_n454,WORLD]+
+COUNT[B_RO_n455,WORLD]+
+COUNT[B_RO_n456,WORLD]+
+COUNT[B_RO_n457,WORLD]+
+COUNT[B_RO_n458,WORLD]+
+COUNT[B_RO_n459,WORLD]+
+COUNT[B_RO_n460,WORLD]+
+COUNT[B_RO_n461,WORLD]+
+COUNT[B_RO_n462,WORLD]+
+COUNT[B_RO_n463,WORLD]+
+COUNT[B_RO_n464,WORLD]+
+COUNT[B_RO_n465,WORLD]+
+COUNT[B_RO_n466,WORLD]+
+COUNT[B_RO_n467,WORLD]+
+COUNT[B_RO_n468,WORLD]+
+COUNT[B_RO_n469,WORLD]+
+COUNT[B_RO_n470,WORLD]+
+COUNT[B_RO_n471,WORLD]+
+COUNT[B_RO_n472,WORLD]+
+COUNT[B_RO_n473,WORLD]+
+COUNT[B_RO_n474,WORLD]+
+COUNT[B_RO_n475,WORLD]+
+COUNT[B_RO_n476,WORLD]+
+COUNT[B_RO_n477,WORLD]+
+COUNT[B_RO_n478,WORLD]+
+COUNT[B_RO_n479,WORLD]+
+COUNT[B_RO_n480,WORLD]+
+COUNT[B_RO_n481,WORLD]+
+COUNT[B_RO_n482,WORLD]+
+COUNT[B_RO_n483,WORLD]+
+COUNT[B_RO_n484,WORLD]+
+COUNT[B_RO_n485,WORLD]+
+COUNT[B_RO_n486,WORLD]+
+COUNT[B_RO_n487,WORLD]+
+COUNT[B_RO_n488,WORLD]+
+COUNT[B_RO_n489,WORLD]+
+COUNT[B_RO_n490,WORLD]+
+COUNT[B_RO_n491,WORLD]+
+COUNT[B_RO_n492,WORLD]+
+COUNT[B_RO_n493,WORLD]+
+COUNT[B_RO_n494,WORLD]+
+COUNT[B_RO_n495,WORLD]+
+COUNT[B_RO_n496,WORLD]+
+COUNT[B_RO_n497,WORLD]+
+COUNT[B_RO_n498,WORLD]+
+COUNT[B_RO_n499,WORLD]+
+COUNT[B_RO_n500,WORLD]+
+COUNT[B_RO_n501,WORLD]+
+COUNT[B_RO_n502,WORLD]+
+COUNT[B_RO_n503,WORLD]+
+COUNT[B_RO_n504,WORLD]+
+COUNT[B_RO_n505,WORLD]+
+COUNT[B_RO_n506,WORLD]+
+COUNT[B_RO_n507,WORLD]+
+COUNT[B_RO_n508,WORLD]+
+COUNT[B_RO_n509,WORLD]+
+COUNT[B_RO_n510,WORLD]+
+COUNT[B_RO_n511,WORLD]+
+COUNT[B_RO_n512,WORLD]+
+COUNT[B_RO_n513,WORLD]+
+COUNT[B_RO_n514,WORLD]+
+COUNT[B_RO_n515,WORLD]+
+COUNT[B_RO_n516,WORLD]+
+COUNT[B_RO_n517,WORLD]+
+COUNT[B_RO_n518,WORLD]+
+COUNT[B_RO_n519,WORLD]+
+COUNT[B_RO_n520,WORLD]+
+COUNT[B_RO_n521,WORLD]+
+COUNT[B_RO_n522,WORLD]+
+COUNT[B_RO_n523,WORLD]+
+COUNT[B_RO_n524,WORLD]+
+COUNT[B_RO_n525,WORLD]} => reactdir & "All_open_GluN2B" & "." & seed & ".dat"
+
+
+{COUNT[Glu,WORLD]}=> reactdir & "Glu" & "." & seed & ".dat"  
+
+}

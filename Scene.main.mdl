@@ -1,0 +1,58 @@
+
+/*This is the main file for the mouse azmodel simulation*/
+
+INCLUDE_FILE="parameters.mdl"  /*read parameters for the simulation*/
+
+NOTIFICATIONS
+{
+DIFFUSION_CONSTANT_REPORT=ON
+ITERATION_REPORT=ON
+PROBABILITY_REPORT=ON
+VARYING_PROBABILITY_REPORT=ON
+PROGRESS_REPORT=ON
+RELEASE_EVENT_REPORT=ON
+FINAL_SUMMARY=ON
+}
+
+ITERATIONS=iterations
+TIME_STEP=time_step
+TIME_STEP_MAX=maximum_time_step
+EFFECTOR_GRID_DENSITY=effector_grid_density
+
+PARTITION_X=[[-0.4 TO 0.4 STEP 0.01]]
+PARTITION_Y=[[-0.4 TO 0.4 STEP 0.01]]
+PARTITION_Z=[[-0.02 TO 0.02 STEP 0.01]]
+
+INCLUDE_FILE = "Scene.initialization.mdl"
+INCLUDE_FILE = "Scene.molecules.mdl"
+INCLUDE_FILE = "Scene.surface_classes.mdl"
+INCLUDE_FILE = "Scene.geometry_box.mdl"
+INCLUDE_FILE = "Scene.geometry_border.mdl"
+INCLUDE_FILE= "munc_release_site.mdl" 
+INCLUDE_FILE = "Scene.reactions.mdl"
+
+INSTANTIATE Scene OBJECT
+{
+  Box OBJECT Box {}
+  Border OBJECT Border {}
+/*  mol1 RELEASE_SITE
+  {
+   SHAPE = Scene.Box
+   MOLECULE = Glu
+   NUMBER_TO_RELEASE =1000
+   RELEASE_PROBABILITY = 1
+  }
+*/
+  munc_release_site OBJECT munc_release_site {}
+  
+}
+
+sprintf(seed,"%g",SEED)
+
+
+INCLUDE_FILE = "local_directory.mdl" /*  the destination of reaction_data */
+                                     /* rewrite local_directory.mdl to  = /react_data */
+
+//INCLUDE_FILE = "Scene.viz_output.mdl" 
+INCLUDE_FILE = "Scene.reaction_data.mdl"
+
