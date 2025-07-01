@@ -3,7 +3,7 @@
 Use MCell3 to run the simulations.
 https://mcell.org/
 
-1. real munc positions and real NMDAR positions of syn #19 is in Real_Munc-Real_NMDAR.
+1. real munc positions and real NMDAR positions of syn #19 is in Real_Munc-Real_NMDAR repository: https://github.com/r0zita/Real_Munc-Real_NMDAR
 For other synapses (a) replace the synapse border from border_other_synapses (and rename it to Scene.geometry_border.mdl)
 (b) use the synapse munc and NMDAR positions and ids and put them in files:
 Scene.reactions.mdl and munc_release_site.mdl.
@@ -23,7 +23,7 @@ The same for the receptor reaction with Glu.
 
 ====
 
-2. Grid Munc simulation code (for syn 17) is in source_code_syn17_MuncGrid
+2. Grid Munc simulation code (for syn 17) is in Munc_Grid repository: https://github.com/r0zita/Munc_Grid
 Use the grid position from grid.mdl and run your mcell simulations for each grid site.
 put the position in file munc_release_site.mdl in:
 
@@ -34,7 +34,7 @@ For other synapsesfollow the above instructions.
 
 ====
 
-3. Grid NMDAR simulation code (for syn 17) is in source_code_syn17_NMDAR_Grid.
+3. Grid NMDAR simulation code (for syn 17) is in NMDAR_Grid repository: https://github.com/r0zita/NMDAR_Grid
 GluN2A is in 2A folder and GluN2B is in 2B.
 
 Again, use the grid positions from Agrid3 and Bgrid3 files.
